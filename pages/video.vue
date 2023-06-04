@@ -45,7 +45,7 @@
               bg-theme-700
             "
           >
-            Continue To E-Brochure
+            Continue To E-Brochures
             <svg
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,8 @@
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-              ></path></svg>
+              ></path>
+              </svg>
               </NuxtLink>
         </section>
       </div>

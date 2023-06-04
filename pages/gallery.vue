@@ -34,11 +34,11 @@
               transition
               rounded
               sm:px-0
-              hover:bg-brown-900
-              bg-brown-700
+              hover:bg-theme-900
+              bg-theme-700
             "
           >
-            Continue To Dunman Residences Video
+            Continue To Grand Dunman Video
             <svg
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@
                 stroke-linecap="round"
                 stroke-linejoin="round"
               ></path></svg>
-              </NuxtLink>
+          </NuxtLink>
         </section>
         </div>
     </section>

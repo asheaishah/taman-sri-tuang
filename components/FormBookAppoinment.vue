@@ -32,7 +32,7 @@
           </select>
         </div>
         <div>
-          <label for="name" class="block font-medium text-gray-500">Name<span class="text-red-500">*</span></label>
+          <label for="name" class="block font-medium text-gray-500">Full Name<span class="text-red-500">*</span></label>
           <input id="name" v-model="name" type="text" required class="form-input" />
         </div>
         <div>
@@ -127,8 +127,8 @@ export default {
       success: false,
       policyIsAgree: '',
       send_brochure: false,
-      email_2: 'dave@singhaiyi.com',
-      newSendBrochure: '',
+      email_2: 'james@limousinetransport.com',
+      newSendBrochure: '', 
     };
   },
   methods: {
@@ -166,18 +166,18 @@ export default {
 
       if (Object.keys(this.errors).length === 0) {
         const emailBody =
-          `<h3>Dear ${this.name},</h3>` +
-          `<h4>Thank you for your interest in Grand Dunman. We are thrilled to offer you the opportunity to be among the first to experience our new, upcoming condominium.</h4>` +
-          `<h4>As a valued prospect, we want to keep you informed of all the latest updates and developments related to Grand Dunman. Our team is dedicated to providing you with the most up-to-date information available, and we will be sure to keep you in the loop as we progress.</h4>` +
-          `<h4>In the meantime, we invite you to visit our show flat and take advantage of our exclusive direct developer prices with discounts. Our knowledgeable staff will be on hand to guide you through our state-of-the-art facilities and answer any questions you may have.</h4>` +
-          `<h4>In addition to our show flat, we also update our website regularly with new information and exciting developments related to Grand Dunman. Be sure to check back often for the latest news at: <a href="https://grand-dunman.com.sg/"> <b>grand-dunman.com.sg</b></a></h4>` +
-          `<h4>If you have any questions or concerns, please do not hesitate to contact us at <a href="tel:+65 6100 3337"><b>+65 6100 3337</b></a> or reply to this email: <a href="mailto:dave@singhaiyi.com"><b>dave@singhaiyi.com</b></a>. Our team is here to provide you with the highest level of service and support.</h4>` +
-          `<h4>Thank you for considering Grand Dunman as your next home. We look forward to the opportunity to serve you!</h4>` +
-          `<h4>Best regards,</h4>` +
-          `<h4>Grand Dunman</h4>`;
+        `<h3>Dear ${this.name},</h3>` +
+        `<h4>Thank you for your interest in Grand Dunman. We are thrilled to offer you the opportunity to be among the first to experience our new, upcoming condominium.</h4>` +
+        `<h4>As a valued prospect, we want to keep you informed of all the latest updates and developments related to Grand Dunman. Our team is dedicated to providing you with the most up-to-date information available, and we will be sure to keep you in the loop as we progress.</h4>` +
+        `<h4>In the meantime, we invite you to visit our show flat and take advantage of our exclusive direct developer prices with discounts. Our knowledgeable staff will be on hand to guide you through our state-of-the-art facilities and answer any questions you may have.</h4>` +
+        `<h4>In addition to our show flat, we also update our website regularly with new information and exciting developments related to Grand Dunman. Be sure to check back often for the latest news at: <a href="https://grand-dunman.com.sg/"><b>grand-dunman.com.sg</b></a></h4>` +
+        `<h4>If you have any questions or concerns, please do not hesitate to contact us at <a href="tel:+65 6100 3337"><b>+65 6100 3337</b></a> or reply to this email: <a href="mailto:dave@singhaiyi.com"><b>dave@singhaiyi.com</b></a>. Our team is here to provide you with the highest level of service and support.</h4>` +
+        `<h4>Thank you for considering Grand Dunman as your next home. We look forward to the opportunity to serve you!</h4>` +
+        `<h4>Best regards,</h4>` +
+        `<h4>Grand Dunman</h4>`;
 
         this.$axios
-          .post('https://grand-dunman.com.sg/send_mail.php', {
+          .post('http://localhost:3000/send_mail.php', {
             To: process.env.EMAIL_USER,
             From: this.email,
             Subject: 'Grand Dunman - Receipt Acknowledgement',
@@ -199,7 +199,7 @@ export default {
               `<h4>Thanks,</h4>` +
               `<h4>Grand Dunman</h4>`;
 
-            this.$axios.post('https://grand-dunman.com.sg/send_mail.php', {
+            this.$axios.post('http://localhost:3000/send_mail.php', {
               To: process.env.EMAIL_USER,
               From: this.email_2,
               Subject: `Grand Dunman - New Appointment Submission [${this.name}]`,

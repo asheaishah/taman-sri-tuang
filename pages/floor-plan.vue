@@ -77,7 +77,7 @@ export default {
   data() {
     return {
       OneBedroom: [
-        { title: 'Type A', url: 'coming-soon' },
+        { title: 'Type A', url: 'coming-soon.png' },
       ],
       TwoBedroom: [
         { title: 'Type B1', url: 'coming-soon' },

@@ -185,8 +185,8 @@
               transition
               rounded
               sm:px-0
-              hover:bg-brown-900
-              bg-brown-700
+              hover:bg-theme-900
+              bg-theme-700
             "
           >
             Continue To Gallery
@@ -202,8 +202,9 @@
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-              ></path></svg
-          ></NuxtLink>
+              ></path>
+              </svg>
+              </NuxtLink>
         </section>
       </div>
     </section>

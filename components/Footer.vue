@@ -84,7 +84,16 @@
           </div>
         </div>
         <div class="text-xs text-gray-400">
-          Disclaimer: The photographic and artistic impressions contained in this website are for illustrative purposes only and the final product may differ from that illustration. Images of furniture are for illustrative purposes only. Reference to time, distances and localities are approximate only and may be subject to traffic conditions. Views will vary depending on position of lot within building. The developer, builder or agent does not warrant that views will not be impacted by future development. Any statistics quoted in this brochure are not representations by the developer or its agents. While care has been taken to ensure that all information contained in this brochure are accurate the developer or its agents do not represent or warrant the accuracy. This website is for marketing purposes only and should not be relied upon when making a decision to purchase. While every reasonable care has been taken in preparing this website and in constructing the models and showflats, the developer and the marketing agents cannot be held responsible for any inaccuracies or omissions. Visual representations, models, showflats displays and illustrations, photographs, art renderings and other graphic representations and references are intended to portray only artist’s impressions of the development and cannot be regarded as representations of fact. All property listed, be it in Singapore or overseas, is subject to final inspection by relevant authorities to comply with the current code of practice and policies for the respective country. Purchasers should make their own enquiries and where applicable obtain appropriate professional advice as to their particular circumstances. All purchases are subject to contract terms.
+          Disclaimer: The photographs, artistic impressions, and furniture images displayed on this website are for illustrative purposes only. 
+          The actual product may differ from the illustrations. References to time, distances, and localities are approximate and may be subject to traffic conditions. 
+          Views may vary depending on the location within the building, and the developer, builder, or agent does not guarantee that views will not be affected by future developments. 
+          Any statistics mentioned in this brochure are not representations by the developer or its agents. While we have taken care to ensure the accuracy of all information provided in this brochure, 
+          the developer or its agents do not guarantee its accuracy. This website is for marketing purposes only and should not be solely relied upon when making a purchase decision. 
+          Although every reasonable care has been taken in preparing this website, including the construction of models and showflats, the developer and marketing agents cannot be held responsible for any 
+          inaccuracies or omissions. Visual representations, models, showflats, displays, illustrations, photographs, art renderings, and other graphics are intended to convey the artist's impressions of 
+          the development and should not be considered as representations of fact. All listed properties, whether in Singapore or overseas, are subject to final inspection by relevant authorities to comply 
+          with the current codes of practice and policies of the respective countries. Purchasers should conduct their own inquiries and, if necessary, seek appropriate professional advice based on their specific 
+          circumstances. All purchases are subject to the terms and conditions of the contract.
         </div>
       </div>
     </div>
@@ -94,6 +103,7 @@
     <div class="header-chat">
       <div class="head-home">
         <div class="info-avatar">
+          <!-- DUNMAN LOGO-->
            <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
            <svg version="1.1" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 	 x="0px" y="0px" viewBox="0 0 250 100" overflow="visible" xml:space="preserve">
