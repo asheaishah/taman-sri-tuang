@@ -136,7 +136,7 @@
           </div>
           <div class="space-y-2 text-center break-words">
             <img
-              src="~assets/img/developer/track-record-6 (2).png"
+              src="~assets/img/developer/track-record-6.1.png"
               alt="The Lilium"
               class="mx-auto rounded shadow"
             />

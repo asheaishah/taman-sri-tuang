@@ -8,7 +8,7 @@
     <section>
       <div class="max-w-6xl px-4 py-12 mx-auto space-y-6">
         <img
-          src="~assets/img/press/press 2.0.png"
+          src="~assets/img/press/press2.0.png"
           alt="Resale Condo Prices Maintain Upward Trend"
           class="mx-auto"
         />

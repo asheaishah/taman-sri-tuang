@@ -5,7 +5,7 @@
       <section>
         <div class="px-4 mb-6 text-center">
           <h3 class="text-xl font-semibold sm:text-2xl tracking-widest">
-            The Grand Dunman
+            Grand Dunman
           </h3>
           <p>
             Latest Unit Sold: TBA |

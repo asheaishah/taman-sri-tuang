@@ -8,7 +8,7 @@
     <section>
       <div class="max-w-6xl px-4 py-12 mx-auto space-y-6">
         <img
-          src="~assets/img/press/press 1.0.jpg"
+          src="~assets/img/press/press1.0.jpg"
           alt="New Private Home Sales Up 57%, Highest For December In 8 Years: Ura Data"
           class="mx-auto"
           width="500"
@@ -60,7 +60,7 @@
                   which was awarded to Far East Organization and Sino Group, which jointly submitted the highest bid of around $1.028 billion.
                   </h1>
                   <img
-                    src="~assets/img/press/press 1.1.jpg"
+                    src="~assets/img/press/press1.1.jpg"
                     alt="New Private Home Sales Up 57%, Highest For December In 8 Years: Ura Data"
                     class="mx-auto"
                     width="500"
