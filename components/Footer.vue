@@ -16,7 +16,7 @@
             <li>Developer: Singhaiyi Group Pte. Ltd.</li>
             <li>Tenure of Land: 99-Year Leasehold</li>
             <li>Site Area: Approx. 271,622 sqft</li>
-            <li>Expected TOP: TBC</li>
+            <li>Expected TOP: 2028</li>
           </ul>
         </div>
         <div class="space-y-2">

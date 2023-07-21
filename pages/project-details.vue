@@ -12,7 +12,7 @@
             <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
               <div>
                 <label class="block text-gray-500 font-bold">Project Name</label>
-                <p>Grand Dunman (Dunman Road New Condo)</p>
+                <p>Grand Dunman (名门世家)</p>
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">Developer</label>
@@ -20,7 +20,7 @@
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">Location</label>
-                <p>Dunman Road</p>
+                <p>Dakota / Marine Parade</p>
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">District</label>
@@ -28,7 +28,7 @@
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">Site Area</label>
-                <p>Approx. 23,234.3 sq m / 271,622 sq ft</p>
+                <p>Approx. 252,234 sq m / 271,622 sq ft</p>
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">Maximum Gross Floor Area</label>
@@ -40,19 +40,15 @@
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">Architect</label>
-                <p>TBA</p>
+                <p>P &amp; T Consultant</p>
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">Main Contractor</label>
-                <p>TBA</p>
-              </div>
-              <div>
-                <label class="block text-gray-500 font-bold">M &amp; E Consultant</label>
-                <p>TBA</p>
+                <p>China Construction Realty Co Pte Ltd</p>
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">Landscape Consultant</label>
-                <p>TBA</p>
+                <p>COEN Design International Pte Ltd</p>
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">Tenure</label>
@@ -64,11 +60,11 @@
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">Total No. of Units</label>
-                <p>1,070 Residential Units (Estimated)</p>
+                <p>1,008 Residential Units &amp; 5 Shops</p>
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">Development</label>
-                <p>1 Block of 20-Storey & 3 Blocks of 19-Storey Condominium</p>
+                <p>7 Blocks of 18-Storey Apartment</p>
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">Land Use</label>
@@ -76,11 +72,11 @@
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">Expected Date of TOP</label>
-                <p>2025</p>
+                <p>2028</p>
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">Expected Date of Legal Completion</label>
-                <p>TBA</p>
+                <p>2031</p>
               </div>
               
             </div>

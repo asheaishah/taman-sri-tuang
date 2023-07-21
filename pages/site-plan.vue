@@ -7,11 +7,8 @@
     </div>
     <section>
       <div class="max-w-6xl px-4 py-12 mx-auto space-y-6">
-        <p class="max-w-2xl mx-auto text-center">
-            Our team will update the Site Plan for Grand Dunman once it is available. <br> Stay tune!
-          </p>
         <img
-          src="~assets/img/location-plan.jpg"
+          src="~assets/img/GrandDunmanSitePlan.jpg"
           alt="SitePlan for Grand Dunman"
           class="mx-auto"
         />

@@ -8,10 +8,22 @@
     <section>
       <div class="max-w-6xl px-4 py-12 mx-auto space-y-6">
         <img
-          src="~assets/img/Location-Map-The-Dunman-Residences.jpeg"
+          src="~assets/img/Grand-Dunman-Location-Map-scaled.jpg"
           alt="Location Plan for Grand Dunman"
           class="mx-auto"
         />
+
+      <br>
+
+      <div class="map-container">
+    <iframe 
+      :src="mapUrl"
+      class="map-iframe"
+      allowfullscreen 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
 
       <!-- <NuxtLink to="/public/pdf/location-map-lilium.pdf" target="_blank"
             ><img
@@ -408,3 +420,29 @@
     <BookAppointment />
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7783156568266!2d103.88601178273224!3d1.3082421952741143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da156693251d91%3A0xfc141c355bd30e9b!2sGrand%20Dunman!5e0!3m2!1sen!2smy!4v1689953069160!5m2!1sen!2smy'
+    };
+  },
+};
+</script>
+
+<style scoped>
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* adjust this value according to your needs */
+}
+
+.map-iframe {
+  width: 100%;
+  max-width: 800px;
+  height: 50vh; /* adjust this value according to your needs */
+  border: none;
+}
+</style>

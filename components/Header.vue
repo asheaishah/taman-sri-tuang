@@ -503,19 +503,15 @@ AAAASUVORK5CYII=" transform="matrix(1.7778 0 0 1.5385 0 0)">
           </NuxtLink>
         </div>
       </div>
-      <div class="py-2 text-center text-white bg-gradient-to-r from-theme-800 to-yellow-100">
+      <div class="py-2 text-center text-white font-bold bg-gradient-to-r from-theme-800 to-yellow-100">
         <p 
     class="animate-notification" 
     :class="{ 'animate-notification-hover': hovered }"
     @mouseenter="hovered = true"
     @mouseleave="hovered = false"
 >
-    In response to Covid-19 precautions, all Showflat Viewings are by appointment only. 
-    For more information, please 
-    <NuxtLink to="/contact-us" class="underline text-white">
-        write in or send us your contact
-    </NuxtLink>.
-</p>
+            For optimal service quality, all Showflat Viewings are now exclusively by appointment. To schedule yours or for more information, please <NuxtLink to="/contact-us" class="underline text-white">reach out to us</NuxtLink>.
+            </p>
       </div>
     </div>
   </template>
@@ -569,4 +565,5 @@ export default {
   .animate-notification-hover {
     animation: notification-hover 3s infinite;
   }
+  
   </style>

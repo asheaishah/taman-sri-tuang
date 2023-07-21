@@ -10,17 +10,18 @@
               alt="Book An Appointment"
               class="w-full"
             />
+            <br>
             <p>
-              Book An Appointment to view ShowFlat &amp; get VVIP Discounts
-              (Limited Time), Direct Developer Price, &amp; Hardcopy E-Brochure.
-              Guaranteed with Best Price Possible.
-            </p>
-            <p>OR</p>
-            <p>
-              Fill up the form on the left and get a copy of Price, E-Brochure,
-              and Latest Updates!
-            </p>
-            <p>Strictly no spam policy.</p>
+            Make an appointment now to explore the elegant ShowFlat of Grand Dunman and avail of our VVIP Discounts for a limited time only. With direct developer pricing, and an exclusive hardcopy E-Brochure, 
+            we guarantee the best price possible for your future residence.
+          </p>
+          <br>
+          <p>Alternatively,</p>
+          <br>
+          <p>
+            Fill out the form provided and receive an instant digital copy of our latest updates, E-Brochure, and pricing information! Take the first step in your journey to discovering your perfect home.
+          </p>
+          <p>Respecting your privacy is our priority. We adhere strictly to a no spam policy.</p>
           </div>
           <div class="p-4 md:order-1 md:w-1/2">
             <section class="space-y-6">

@@ -20,27 +20,26 @@
         </div>
         <div class="max-w-6xl px-4 mx-auto prose text-justify">
           <p>
-            <a target="blank" href="https://www.singhaiyi.com/home.html">SingHaiyi Group Ltd. Pte.</a> is a diversified real estate firm concentrating on property development, investment, and management services listed on the 
-            Mainboard of the Singapore Exchange (SGX). It is overseen by a board and management team with deep insights and strong relationships, allowing 
-            access to unique and uncommon investment possibilities, with strategic backing from its significant shareholders.
-          </p> 
+            <a target="blank" href="https://www.singhaiyi.com/home.html">SingHaiyi Group Ltd. Pte.</a>, a multi-faceted real estate company listed on the Mainboard of the Singapore Exchange (SGX), 
+            excels in property development, investment, and management services. Their key strength lies in the deep industry insights and extensive connections of their leadership team, which opens doors to 
+            exclusive investment opportunities and is bolstered by the strategic backing of significant shareholders.
+          </p> <br>
           <p> 
-            SingHaiyi Group Ltd is well-known in Singapore, but it has also expanded its portfolio to include the United States, 
-            Australia, and Malaysia. This fast-growing real estate company is developing and attempting to diversify its portfolio 
-            into commercial development in Singapore and abroad while focusing on project quality. SingHaiyi strives to create a 
-            trustworthy and trusted brand via business excellence and integrity. 
-          </p>
+            While having established a strong foothold in Singapore, SingHaiyi Group Ltd has also successfully expanded its portfolio into international markets, including the United States, Australia, and Malaysia. 
+            As a rapidly growing company, SingHaiyi not only focuses on maintaining the quality of its projects but also actively seeks to diversify its portfolio into commercial developments both locally and abroad. 
+            The company is committed to building a reputable and reliable brand through business integrity and excellence. 
+          </p><br>
           <p>
-            SingHaiyi has established an excellent track record in Singapore property development, with well-designed and high-quality residential 
-            complexes such as The Vales and City Suites, both of which have received the Building and Construction Authority's "CONQUAS STAR" rating.
-          </p>
+            SingHaiyi takes pride in its impeccable track record in Singapore's property development sector, where it is recognized for its high-quality residential complexes such as The Vales and City Suites. 
+            Both of these prestigious developments have received the distinguished "CONQUAS STAR" rating from the Building and Construction Authority, a testament to SingHaiyi's commitment to superior design and quality.
+          </p><br>
           <p>
-            At the recent 2018 PropertyGuru Asia Property Accolades (Singapore), The Vales took home three awards, including Best Executive Condo Development Award, 
-            Best Executive Condo Interior Design Award, and Best Executive Condo Architectural Design Award. This award is an endorsement of SingHaiyi's projects' design and quality.
-          </p>
+            Further solidifying its reputation, The Vales won three awards at the 2018 PropertyGuru Asia Property Accolades (Singapore), including Best Executive Condo Development Award, Best Executive Condo Interior 
+            Design Award, and Best Executive Condo Architectural Design Award. These accolades serve as an endorsement of SingHaiyi's dedication to exceptional design and construction standards in its projects.
+          </p><br>
           <p>
-            It has a diversified portfolio of income-generating assets in the commercial and retail sectors, with geographical reach into the United States and Australia, a growing presence in Asia, 
-            and an established track record in residential and commercial property development in Singapore and the United States.
+            SingHaiyi's impressive portfolio includes income-generating assets in the commercial and retail sectors, spread across geographically diverse regions such as the United States and Australia. This international 
+            presence, combined with its proven expertise in residential and commercial property development in Singapore and the United States, positions SingHaiyi as a significant player in the global real estate market.
           </p>
         </div>
       </section>
