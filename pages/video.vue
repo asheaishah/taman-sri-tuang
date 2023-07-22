@@ -15,8 +15,8 @@
             width="1000" 
             height="600" 
             class="mx-auto"
-            src="https://www.youtube.com/embed/fzupzRoQpLs?autoplay=1&loop=1&muted=1"  
-            title="The Lilium Videos" 
+            src="https://www.youtube.com/watch?v=LMahLA_6Ekg"  
+            title="Grand Dunman Videos" 
             frameborder="0" 
             allow="accelerometer; 
             autoplay; 
@@ -26,7 +26,7 @@
             picture-in-picture" 
             allowfullscreen>
             </iframe>
-        <h3 class="text-center"> Source and Credit from <a target="_blank" class="transition text-theme-600 hover:text-theme-700" href="https://www.youtube.com/channel/UCqmKYYcer1iwJkKQgYeygDg">Sookim Lee Youtube Channel</a></h3>
+        <h3 class="text-center"> Source and Credit from <a target="_blank" class="transition text-theme-600 hover:text-theme-700" href="https://www.youtube.com/@granddunman4811">Grand Dunman</a></h3>
         <section class="py-6">
           <NuxtLink
             to="/e-brochure"

@@ -403,6 +403,12 @@ AAAASUVORK5CYII=" transform="matrix(1.7778 0 0 1.5385 0 0)">
                                   </NuxtLink>
                               </li>
                               <li>
+                                  <NuxtLink to="/video"
+                                      class="inline-block w-full px-2 py-2 menu-item text-theme-900 hover:bg-theme-100">
+                                      Video
+                                  </NuxtLink>
+                              </li>
+                              <li>
                                   <NuxtLink to="/e-brochure"
                                       class="inline-block w-full px-2 py-2 menu-item text-theme-900 hover:bg-theme-100">
                                       e-Brochure

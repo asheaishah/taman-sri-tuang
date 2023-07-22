@@ -83,83 +83,127 @@
                   </thead>
                   <tbody class="bg-white divide-y divide-gray-200">
                     <tr class="hover:bg-brown-100">
-                      <td class="px-6 py-4 whitespace-nowrap">1 Bedroom</td>
-                      <td class="px-6 py-4 whitespace-nowrap">A</td>
-                      <td class="px-6 py-4 whitespace-nowrap">549</td>
+                      <td class="px-6 py-4 whitespace-nowrap">1 Bedroom (Luxary)</td>
+                      <td class="px-6 py-4 whitespace-nowrap">1BR 1, 1BR 2, 1BR 3</td>
+                      <td class="px-6 py-4 whitespace-nowrap">452 - 581</td>
+                      <td class="px-6 py-4 whitespace-nowrap">TBA</td> 
+                    </tr>
+                    <tr class="hover:bg-brown-100">
+                      <td class="px-6 py-4 whitespace-nowrap">1 Bedroom (Luxary) + Study</td>
+                      <td class="px-6 py-4 whitespace-nowrap">1BR S1, 1BR S2, 1BR S3, 1BR S4</td>
+                      <td class="px-6 py-4 whitespace-nowrap">549 - 710</td>
+                      <td class="px-6 py-4 whitespace-nowrap">TBA</td> 
+                    </tr>
+                    <tr class="hover:bg-brown-100">
+                      <td class="px-6 py-4 whitespace-nowrap">
+                        2 Bedroom (Luxury)	
+                      </td>
+                      <td class="px-6 py-4 whitespace-nowrap">2BR 1, 2BR 2</td>
+                      <td class="px-6 py-4 whitespace-nowrap">667 - 893	</td>
                       <td class="px-6 py-4 whitespace-nowrap">TBA</td>
                       
                     </tr>
                     <tr class="hover:bg-brown-100">
                       <td class="px-6 py-4 whitespace-nowrap">
-                        2 Bedroom
+                        2 Bedroom + Study (Luxury)
                       </td>
-                      <td class="px-6 py-4 whitespace-nowrap">B1</td>
-                      <td class="px-6 py-4 whitespace-nowrap">872</td>
+                      <td class="px-6 py-4 whitespace-nowrap">2BR S1, 2BR S2, 2BR S3, 2BR S4</td>
+                      <td class="px-6 py-4 whitespace-nowrap">775 - 1012</td>
                       <td class="px-6 py-4 whitespace-nowrap">TBA</td>
                       
                     </tr>
                     <tr class="hover:bg-brown-100">
                       <td class="px-6 py-4 whitespace-nowrap">
-                        
+                        2 Bedroom Dual Key (Luxury)	
                       </td>
-                      <td class="px-6 py-4 whitespace-nowrap">B2</td>
-                      <td class="px-6 py-4 whitespace-nowrap">883</td>
+                      <td class="px-6 py-4 whitespace-nowrap">2BR DK1, 2BR DK2</td>
+                      <td class="px-6 py-4 whitespace-nowrap">721 - 872</td>
                       <td class="px-6 py-4 whitespace-nowrap">TBA</td>
                       
                     </tr>
                     <tr class="hover:bg-brown-100">
                       <td class="px-6 py-4 whitespace-nowrap">
-                        
+                        3 Bedroom (Grand)
                       </td>
-                      <td class="px-6 py-4 whitespace-nowrap">B3</td>
-                      <td class="px-6 py-4 whitespace-nowrap">915</td>
+                      <td class="px-6 py-4 whitespace-nowrap">3BR G</td>
+                      <td class="px-6 py-4 whitespace-nowrap">1,475 - 1,819</td>
                       <td class="px-6 py-4 whitespace-nowrap">TBA</td>
                       
                     </tr>
                     <tr class="hover:bg-brown-100">
                       <td class="px-6 py-4 whitespace-nowrap">
-                        3 Bedroom
+                        3 Bedroom (Luxury)	
                       </td>
-                      <td class="px-6 py-4 whitespace-nowrap">C1</td>
-                      <td class="px-6 py-4 whitespace-nowrap">1,173</td>
+                      <td class="px-6 py-4 whitespace-nowrap">3BR 1, 3BR 2, 3BR 3</td>
+                      <td class="px-6 py-4 whitespace-nowrap">926 - 1,163	</td>
                       <td class="px-6 py-4 whitespace-nowrap">TBA</td>
                       
                     </tr>
                     <tr class="hover:bg-brown-100">
                       <td class="px-6 py-4 whitespace-nowrap">
-                      
+                        3 Bedroom + Study (Luxury)	
                       </td>
-                      <td class="px-6 py-4 whitespace-nowrap">C2</td>
-                      <td class="px-6 py-4 whitespace-nowrap">1,184</td>
+                      <td class="px-6 py-4 whitespace-nowrap">3BR LS	</td>
+                      <td class="px-6 py-4 whitespace-nowrap">1,119 - 1,335</td>
                       <td class="px-6 py-4 whitespace-nowrap">TBA</td>
                       
                     </tr>
                     <tr class="hover:bg-brown-100">
                       <td class="px-6 py-4 whitespace-nowrap">
-                      
+                        3 Bedroom Dual Key (Luxury)		
                       </td>
-                      <td class="px-6 py-4 whitespace-nowrap">C3</td>
-                      <td class="px-6 py-4 whitespace-nowrap">1,281</td>
+                      <td class="px-6 py-4 whitespace-nowrap">3BR DK1, 3BR DK2</td>
+                      <td class="px-6 py-4 whitespace-nowrap">1,044 - 1,238	</td>
                       <td class="px-6 py-4 whitespace-nowrap">TBA</td>
                       
                     </tr>
                     <tr class="hover:bg-brown-100">
                       <td class="px-6 py-4 whitespace-nowrap">
-                      4 Bedroom		
+                        3 Bedroom Flex (Luxury)	
                       </td>
-                      <td class="px-6 py-4 whitespace-nowrap">D1</td>
-                      <td class="px-6 py-4 whitespace-nowrap">1,496</td>
-                      <td class="px-6 py-4 whitespace-nowrap">TBA</td>
-                      
+                      <td class="px-6 py-4 whitespace-nowrap">3BR FLEX</td>
+                      <td class="px-6 py-4 whitespace-nowrap">1,098 - 1,302	</td>
+                      <td class="px-6 py-4 whitespace-nowrap">TBA</td> 
                     </tr>
                     <tr class="hover:bg-brown-100">
                       <td class="px-6 py-4 whitespace-nowrap">
-                     
+                        4 Bedroom (Grand)	
                       </td>
-                      <td class="px-6 py-4 whitespace-nowrap">D2</td>
-                      <td class="px-6 py-4 whitespace-nowrap">1,496</td>
-                      <td class="px-6 py-4 whitespace-nowrap">TBA</td>
-                      
+                      <td class="px-6 py-4 whitespace-nowrap">4BR G1, 4BR G2</td>
+                      <td class="px-6 py-4 whitespace-nowrap">1,787 - 2,315</td>
+                      <td class="px-6 py-4 whitespace-nowrap">TBA</td> 
+                    </tr>
+                    <tr class="hover:bg-brown-100">
+                      <td class="px-6 py-4 whitespace-nowrap">
+                        4 Bedroom (Luxury)	
+                      </td>
+                      <td class="px-6 py-4 whitespace-nowrap">4BR, 4BR L</td>
+                      <td class="px-6 py-4 whitespace-nowrap">1,292 - 1,518</td>
+                      <td class="px-6 py-4 whitespace-nowrap">TBA</td> 
+                    </tr>
+                    <tr class="hover:bg-brown-100">
+                      <td class="px-6 py-4 whitespace-nowrap">
+                        5 Bedroom (Grand)	
+                      </td>
+                      <td class="px-6 py-4 whitespace-nowrap">5BR G1, 5BR G2</td>
+                      <td class="px-6 py-4 whitespace-nowrap">2,131 - 2,615</td>
+                      <td class="px-6 py-4 whitespace-nowrap">TBA</td> 
+                    </tr>
+                    <tr class="hover:bg-brown-100">
+                      <td class="px-6 py-4 whitespace-nowrap">
+                        5 Bedroom (Luxury)	
+                      </td>
+                      <td class="px-6 py-4 whitespace-nowrap">5BR L</td>
+                      <td class="px-6 py-4 whitespace-nowrap">1,679 - 1,690</td>
+                      <td class="px-6 py-4 whitespace-nowrap">TBA</td> 
+                    </tr>
+                    <tr class="hover:bg-brown-100">
+                      <td class="px-6 py-4 whitespace-nowrap">
+                        Penthouse (Grand)	
+                      </td>
+                      <td class="px-6 py-4 whitespace-nowrap">PH-1, PH-2, PH-3, PH-4, PH-5, PH-6, PH-7, PH-8	</td>
+                      <td class="px-6 py-4 whitespace-nowrap">2,336 - 3,068	</td>
+                      <td class="px-6 py-4 whitespace-nowrap">TBA</td> 
                     </tr>
                   </tbody>
                 </table>
