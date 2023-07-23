@@ -7,17 +7,19 @@
     </div>
     <section>
       <div class="max-w-6xl px-4 py-12 mx-auto space-y-6">
-        <!--  <ImageModal :images-prop="imageUrl" /> -->
+        <ImageModal :bed-room-prop="imageUrl" />
         <div>
           <p class="max-w-2xl mx-auto text-center">
-            Our team will update the Gallery once it is available. Stay tune!
-          </p>
+            Disclaimer: Illustrative Image with Update Policy
+            </p>
+            <br>
+            <p>
+              The image below is for illustrative purposes only. It does not represent real individuals, places, events, or products. The content is fictional and subject to change without notice.
+              </p>
+              <p>
+              This image is intended for reference or concept demonstration only and should not be used for decision-making. Any updates or alterations are at the discretion of the image creator.
+               </p>
           <br><br>
-          <img
-          src="~assets/img/coming-soon.png"
-         alt="Coming Soon"
-          class="mx-auto"
-        />
         </div>
         
         <section class="py-6">
@@ -64,12 +66,15 @@ export default {
   data() {
     return {
       imageUrl: [
-        { url: 'The-Lilium-Perspective-1-1024x504.jpg' }, 
-        { url: 'The-Lilium-Perspective-2-1024x456.jpg' },
-        { url: 'The-Lilium-Perspective-3-1024x366.jpg' }, 
-        { url: 'The-Lilium-Perspective-4-1024x456.jpg' },
-        { url: 'The-Lilium-Perspective-5-1024x456.jpg' }, 
-        { url: 'The-Lilium-Perspective-6-1024x456.jpg' }, 
+        { url: 'GrandDunman-Perspective-3-360x220' }, 
+        { url: 'GrandDunman-Perspective-4-360x220' },
+        { url: 'GrandDunman-Perspective-5-360x220' }, 
+        { url: 'GrandDunman-Perspective-6-360x220' }, 
+        { url: 'GrandDunman-Perspective-7-360x220' }, 
+        { url: 'GrandDunman-Perspective-8-360x220' }, 
+        { url: 'GrandDunman-Perspective-9-360x220' }, 
+        { url: 'GrandDunman-Perspective-10-360x220' }, 
+        { url: 'GrandDunman-Perspective-11-360x220' }, 
       ],
     }
   },

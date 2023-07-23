@@ -14,38 +14,30 @@
         />
         <br>
         <h1 class="max-w-5xl mx-auto text-justify">
-                  SINGAPORE (EDGEPROP) - A residential site at Dunman Road has been launched for sale by public tender under the Confirmed List of the first half 2022 (1H2022) 
-                  Government Land Sales (GLS) Programme. With a land area of 271,622 sq ft, the site can potentially yield about 1,040 residential units.
-                  </h1>
-                  <h1 class="max-w-5xl mx-auto text-justify">
-                  It is much bigger than another recently sold GLS residential site just 800 m away at Jalan Tembusu and is “likely to fetch above $1 billion in land price, which 
-                  could limit the pool of bidders, due to the higher risks involved”, says Ong Teck Hui, senior director of research & consultancy at JLL.
-                  </h1>
-                  <h1 class="max-w-5xl mx-auto text-justify">
-                  “The top bid could range between $1,250 and $1,350 psf ppr, translating to an overall bid of $1.188 billion to $1.284 billion. The potential selling price of the 
-                  future development could range between $2,300 to $2,400 psf,” says Steven Tan, CEO of OrangeTee & Tie
-                  </h1>
-                  <h1 class="max-w-5xl mx-auto text-justify">
-                    The site is notable for its accessibility and proximity to amenities including Singpost Centre and Kallang Wave Mall as well as popular schools such as Tanjong Katong 
-                    Girls School and Broadrick Secondary School. “The Dunman Road site is very attractive as it is within minutes' walk to Dakota MRT station and a short drive to the 
-                    Central Business District. It is just one train stop from Paya Lebar sub-regional centre,” says Lee Sze Teck, senior director (research) at Huttons Asia.
-                  </h1>
-                  <h1 class="max-w-5xl mx-auto text-justify">
-                    Wong Siew Ying, head of research and content at PropNex Realty, highlighted that despite its size, the site should still draw interest from developers due to the dwindling 
-                    supply of unsold new homes in the market and the relatively limited supply of new private homes in the vicinity. “While this is a sizable project, we think developers may not be 
-                    deterred by this and would likely draw confidence from the healthy sales at many mega projects in the last few years which have posted take-up rates of 90% and over,” she says. 
-                    As of 4Q2021, there was a record low of 14,154 unsold units in the market.
-                  </h1>
-                  <h1 class="max-w-5xl mx-auto text-justify">
-                   The tender for the Dunman Road site will close at 12 noon on June 2. The tender closing for this site will be batched with the tender for the residential site at Pine Grove 
-                   (Parcel A) which has been launched for sale in February 2022 under the Confirmed List of 1H2022 GLS Programme.
-                  </h1>
-                  <h1 class="max-w-5xl mx-auto text-justify">
-                   URA will also be removing a white site at Kampong Bugis from the 1H2022 Reserve List with immediate effect due to delays in the completion of soil remediation works at the site. 
-                   It was originally put up for sale under the Reserve List of the 2H2019 GLS Programme.
-                  </h1>
-                  <br>
-                  <h3 class="text-center"> Source: Nadine Yong, EdgeProp Singapore , Mar 14, 2022 </h3>
+Singapore Property Market Update: Dunman Road Residential Site up for Public Tender</h1>
+<p class="max-w-5xl mx-auto text-justify">
+As part of the first half 2022 (1H2022) Government Land Sales (GLS) Programme, a significant residential plot located on Dunman Road, Singapore has been introduced to the market for sale via public tender. Spanning an impressive 271,622 square feet, this parcel of land offers the potential to accommodate approximately 1,040 residential units, contributing to the diversity and growth of Singapore's real estate sector.</p>
+<h2 class="max-w-5xl mx-auto text-justify">
+A High-Value Site with Limited Competition</h2>
+<p class="max-w-5xl mx-auto text-justify">
+With its size notably larger than a recently sold GLS residential site nearby at Jalan Tembusu, experts predict that the land price could surpass the billion-dollar mark. According to Ong Teck Hui, Senior Director of Research & Consultancy at JLL, such a high potential land price could potentially decrease the number of bidders, given the higher risks involved.</p>
+<h2 class="max-w-5xl mx-auto text-justify">
+Estimated Price Range for Bids</h2>
+<p class="max-w-5xl mx-auto text-justify">
+"The top bid could fluctuate between $1,250 and $1,350 per square foot per plot ratio (psf ppr), which could translate to a total bid ranging from $1.188 billion to $1.284 billion. The possible selling price for the future residential development on this site might range between $2,300 to $2,400 psf," predicts Steven Tan, CEO of OrangeTee & Tie.</p>
+<h2 class="max-w-5xl mx-auto text-justify">
+Location Benefits of the Dunman Road Site</h2>
+<p class="max-w-5xl mx-auto text-justify">
+Not just size, but also its strategic location adds to the attractiveness of the Dunman Road site. It's in proximity to well-known amenities such as Singpost Centre and Kallang Wave Mall. Popular educational institutions like Tanjong Katong Girls School and Broadrick Secondary School are also within easy reach. Lee Sze Teck, Senior Director (Research) at Huttons Asia, emphasizes that the site's accessibility, short drive to the Central Business District, and proximity to the Dakota MRT station make it highly attractive to potential developers.</p>
+<h2 class="max-w-5xl mx-auto text-justify">
+Prospective Developer Interest Despite Size</h2>
+<p class="max-w-5xl mx-auto text-justify">
+Wong Siew Ying, Head of Research and Content at PropNex Realty, anticipates that despite its size, the site should attract developers owing to the diminishing supply of unsold new homes in the market and the relatively limited supply of new private homes in the vicinity. As of the fourth quarter of 2021, the number of unsold units in the market reached a record low of 14,154.</p>
+<h2 class="max-w-5xl mx-auto text-justify">
+Tender Closing Dates and Other Updates</h2>
+<p class="max-w-5xl mx-auto text-justify">
+The tender for the Dunman Road site will close on June 2. The tender closing for this site will coincide with the tender for the residential site at Pine Grove (Parcel A), which was launched for sale in February 2022 under the Confirmed List of 1H2022 GLS Programme. In other updates, URA has announced the removal of a white site at Kampong Bugis from the 1H2022 Reserve List with immediate effect due to delays in the completion of soil remediation works at the site. The site was originally listed for sale under the Reserve List of the 2H2019 GLS Programme.</p>
+<h3 class="text-center">Source: Nadine Yong, EdgeProp Singapore, March 14, 2022</h3>
                   
         <section class="py-6">
           <NuxtLink

@@ -456,7 +456,7 @@ AAAASUVORK5CYII=" transform="matrix(1.7778 0 0 1.5385 0 0)">
                               <NuxtLink to="/dunman/payar-lebar" class="inline-block w-full">Payar Lebar Airbase URA Masterplan</NuxtLink>
                             </li>
                             <li class="ml-3 transition hover:text-theme-600 mobile-sub-menu">
-                              <NuxtLink to="/dunman/payar-lebar" class="inline-block w-full">Marine Parade URA Masterplan</NuxtLink>
+                              <NuxtLink to="/dunman/marine-parade" class="inline-block w-full">Marine Parade URA Masterplan</NuxtLink>
                             </li>
                           </ul>
                         </div>

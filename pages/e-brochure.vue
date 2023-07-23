@@ -7,28 +7,16 @@
     </div>
     <section>
       <div class="max-w-6xl px-4 py-12 mx-auto space-y-6">
-      <!--  <div class="flex justify-center">
-          <NuxtLink to="/public/pdf/The Lilium_E-brochure_Latest.pdf" target="_blank"
+        <div class="flex justify-center">
+          <NuxtLink to="/public/pdf/GrandDunman-Grand-Brochure.pdf" target="_blank"
             ><img
-              src="~assets/img/front-cover-the-lilium.png"
+              src="~assets/img/GrandDunmanBrochure.png"
               width="500"
-              alt="The The Lilium e-Brochure"
+              alt="Grand Dunman e-Brochure"
           /></NuxtLink>
         </div>
-        <h3 class="text-center sm:text-xl">Do <strong>"click"</strong> the above picture to view The Lilium E-Brochure</h3>
-        -->
-
-        <div>
-          <p class="max-w-2xl mx-auto text-center">
-            Our team will update the Balance Units Chart once it is available. Stay tune!
-          </p>
-          <br><br>
-          <img
-          src="~assets/img/coming-soon.png"
-         alt="Coming Soon"
-          class="mx-auto"
-        />
-        </div>
+        <h3 class="text-center sm:text-xl">Do <strong>"click"</strong> the above picture to view Grand Dunman E-Brochure</h3>
+        
         <section class="py-6">
           <NuxtLink
             to="/elevation-chart"

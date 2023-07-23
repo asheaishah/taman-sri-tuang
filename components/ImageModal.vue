@@ -1,17 +1,12 @@
 <template>
-  <div class="grid grid-cols-1 gap-2 sm:grid-cols-3 sm:gap-6">
-    <div
-      v-for="(image, index) in imagesProp"
-      :key="index"
-      class="space-y-1 cursor-pointer"
-      @click="toggleModal(image.url)"
-    >
-      <img :src="imageSource(image.url)" alt="" class="object-cover w-full h-full mx-auto rounded cursor-pointer" />
+  <div class="grid grid-cols-2 gap-2 sm:gap-6 sm:grid-cols-3">
+    <div v-for="(bedRoom, index) in bedRooms.bedRoomProp" :key="index" class="space-y-1 cursor-pointer"
+      @click="toggleModal(bedRoom.url)">
+      <img :src="images[bedRoom.url]" class="mx-auto rounded  w-2/3" />
+      <p class="text-center">{{ bedRoom.title }}</p>
     </div>
 
-    <div
-      v-if="showModal"
-      class="
+    <div v-if="modal" class="
         fixed
         inset-0
         z-50
@@ -22,15 +17,10 @@
         flex
         overscroll-y-contain
         overflow-auto
-      "
-    >
-      <div
-        v-click-outside="externalClick"
-        class="relative w-auto my-auto mx-auto max-w-6xl"
-      >
+      ">
+      <div ref="modalRef" class="relative w-auto my-auto mx-auto max-w-6xl">
         <!--content-->
-        <div
-          class="
+        <div class="
             border-0
             rounded-lg
             shadow-lg
@@ -40,50 +30,43 @@
             bg-white
             outline-none
             focus:outline-none
-          "
-        >
+          ">
           <!--body-->
           <div class="relative p-6 flex-auto">
-            <img :src="imageSource(imageUrl)" alt="" class="mx-auto rounded" />
+            <img :src="images[imageUrl]" alt="" class="mx-auto rounded" />
           </div>
         </div>
       </div>
     </div>
-    <div v-if="showModal" class="opacity-25 fixed inset-0 z-40 bg-black"></div>
+    <div v-if="modal" class="opacity-25 fixed inset-0 z-40 bg-black"></div>
   </div>
 </template>
 
-<script>
-import vClickOutside from 'v-click-outside'
-export default {
-  name: 'LargeModal',
-  directives: {
-    clickOutside: vClickOutside.directive,
-  },
-  props: {
-    imagesProp: { type: Array, default: () => [] },
-  },
+<script setup>
+import { ref } from 'vue'
+import { onClickOutside } from '@vueuse/core'
+import { filename } from 'pathe/utils';
 
-  data() {
-    return {
-      showModal: false,
-      images: this.imagesProp,
-      imageUrl: '',
-    }
+let modal = ref(false)
+const modalRef = ref(null)
+let imageUrl = ref(null)
+const bedRooms = defineProps({ bedRoomProp: Array })
+
+onClickOutside(
+  modalRef,
+  (event) => {
+    console.log(event)
+    modal.value = false
   },
-  computed: {},
-  methods: {
-    toggleModal(imageUrl) {
-      this.imageUrl = imageUrl
-      this.showModal = !this.showModal
-      this.Modal = !this.$emit('isModal', this.Modal)
-    },
-    externalClick() {
-      this.showModal = false
-    },
-    imageSource(url) {
-      return require(`~/assets/img/gallery/${url}`)
-    },
-  },
+)
+
+function toggleModal(url) {
+  imageUrl.value = url
+  modal.value = true
 }
+
+const glob = import.meta.glob(`~/assets/img/gallery/*.jpeg`, { eager: true });
+const images = Object.fromEntries(
+  Object.entries(glob).map(([key, value]) => [filename(key), value.default])
+);
 </script>

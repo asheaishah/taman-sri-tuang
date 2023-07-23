@@ -177,7 +177,7 @@ export default {}
   
 <style scope>
 #main_banner {
-    background-image: url('assets/img/home/bannerDunman.png');
+    background-image: url('assets/img/home/GrandDunman-Slider-2a.jpg');
 }
 </style>
   

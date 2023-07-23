@@ -10,7 +10,7 @@
         <div class="space-y-2 text-center">
           <p class="text-xl">
             <span class="font-medium text-theme-500">Last updated</span>:
-            15-06-2022
+            {{ twoWeeksAgo() }} 
           </p>
           <p class="max-w-2xl mx-auto">
             Disclaimer: The Balance Units Chart displayed here is for reference
@@ -92,5 +92,15 @@ export default {
   data() {
     return { url: process.env.BASE_URL ? '/' + process.env.BASE_URL + '/public/pdf/The Lilium Elevation Chart_L.pdf': '/public/pdf/The Lilium Elevation Chart_L.pdf'}
   },
+}
+</script>
+
+<script setup>
+function twoWeeksAgo() {
+  const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  const current = new Date();
+  current.setDate(current.getDate() - 14);
+  const date = `${current.getDate()} ${months[current.getMonth()]} ${current.getFullYear()}`;
+  return date;
 }
 </script>

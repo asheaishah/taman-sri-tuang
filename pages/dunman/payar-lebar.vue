@@ -14,21 +14,26 @@
         />
         <br>
         <h1 class="max-w-5xl mx-auto text-justify">
-                  The Government has announced that from 2030 onwards, the Paya Lebar Airbase will be relocated. The airbase and its surrounding 
-                  industrial developments which are about 5 times of Toa Payoh area will then be transformed into a distinctive and unique town.
-                  </h1>
-                  <h1 class="max-w-5xl mx-auto text-justify">
-                  It will be a commercial hub with jobs and amenities for future residents and employees. The transformation of the airbase area 
-                  and its surroundings will improve the connectivity across towns and at the same time accommodating a meaningful green and play 
-                  spaces for people to enjoy.
-                  </h1>
-                  <h1 class="max-w-5xl mx-auto text-justify">
-                  This potential development of the Lilium’s neighbourhood will bring much more excitement and convenience to its community than 
-                  you can imagine.
-                  </h1>
+Government Plans to Reallocate Paya Lebar Airbase by 2030: A Look into Future Urban Development
+</h1>
+<p class="max-w-5xl mx-auto text-justify">
+In a strategic shift aimed at urban renewal and sustainable development, the government has unveiled plans to relocate Paya Lebar Airbase and its surrounding industrial facilities by 2030. This area, which spans approximately five times the size of the Toa Payoh district, will be reimagined and repurposed into a distinctive and sustainable town. 
+</p>
+<h2 class="max-w-5xl mx-auto text-justify">
+Paya Lebar Airbase Transformation: Envisioning a New Commercial Hub
+</h2>
+<p class="max-w-5xl mx-auto text-justify">
+In the future, the site is projected to become a thriving commercial hub, providing a range of job opportunities and amenities for its residents and workforce. This transformation is expected to significantly enhance connectivity between towns while also fostering the creation of green spaces and recreational areas for public enjoyment.
+</p>
+<h2 class="max-w-5xl mx-auto text-justify">
+Impacts on Grand Dunman Neighbourhood: Anticipating Exciting Changes
+</h2>
+<p class="max-w-5xl mx-auto text-justify">
+The potential metamorphosis of the Paya Lebar Airbase and its environs is likely to inject vibrancy and convenience into the neighbourhood of Lilium. From improved amenities to increased connectivity, residents can look forward to an enhanced living experience beyond their expectations.
+</p>
         <section class="py-6">
           <NuxtLink
-            to="/press/press-one"
+            to="/dunman/marine-parade"
             class="
               inline-flex
               items-center
@@ -44,7 +49,7 @@
               bg-theme-700
             "
           >
-            Continue To Mega Private Housing Site In Dunman Road Up For Sale
+            Continue To Marine Parade URA Masterplan
             <svg
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
