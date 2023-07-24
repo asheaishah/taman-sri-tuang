@@ -10,9 +10,10 @@
   },
   "devDependencies": {
     "@types/node": "^18",
-    "nuxt": "^3.5.2"
+    "nuxt": "^3.6.3"
   },
   "dependencies": {
+    "@gtm-support/vue-gtm": "^2.0.0",
     "@nuxtjs/router": "^1.7.0",
     "@vueuse/core": "^10.1.2",
     "autoprefixer": "^10.4.14",

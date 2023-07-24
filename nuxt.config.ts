@@ -31,6 +31,7 @@ export default defineNuxtConfig({
     runtimeConfig: {
         email: '', // can be overridden by NUXT_API_SECRET environment variable
         title:'Grand Dunman',
-        emailUser: ''
-    }
+        emailUser: '',
+    },
+    
 })

@@ -8,7 +8,7 @@
     <section>
       <div class="max-w-6xl px-4 py-12 mx-auto space-y-6">
         <div class="flex justify-center">
-          <NuxtLink to="/public/pdf/GrandDunman-Grand-Brochure.pdf" target="_blank"
+          <NuxtLink to="/pdf/GrandDunman-Grand-Brochure.pdf" target="_blank"
             ><img
               src="~assets/img/GrandDunmanBrochure.png"
               width="500"

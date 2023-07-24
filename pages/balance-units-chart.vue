@@ -30,7 +30,7 @@
         </div>
         <div class="text-center">
           <NuxtLink
-            to="/public/pdf/GrandDunman.pdf"
+            to="/pdf/GrandDunman.pdf"
             target="_blank"
             class="font-medium hover:underline"
           >
@@ -79,7 +79,7 @@
 <script>
 export default {
   data() {
-    return { url: process.env.BASE_URL ? '/' + process.env.BASE_URL + '/public/pdf/GrandDunman.pdf': '/public/pdf/GrandDunman.pdf'}
+    return { url: process.env.BASE_URL ? '/' + process.env.BASE_URL + '/pdf/GrandDunman.pdf': '/pdf/GrandDunman.pdf'}
   },
 }
 </script>

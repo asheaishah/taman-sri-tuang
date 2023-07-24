@@ -127,7 +127,7 @@ export default {
       success: false,
       policyIsAgree: '',
       send_brochure: false,
-      email_2: 'james@limousinetransport.com',
+      email_2: 'dave@singhaiyi.com',
       newSendBrochure: '', 
     };
   },
@@ -177,7 +177,7 @@ export default {
         `<h4>Grand Dunman</h4>`;
 
         this.$axios
-          .post('http://localhost:3000/send_mail.php', {
+          .post('https://grand-dunman.com.sg/send_mail.php', {
             To: process.env.EMAIL_USER,
             From: this.email,
             Subject: 'Grand Dunman - Receipt Acknowledgement',
@@ -199,7 +199,7 @@ export default {
               `<h4>Thanks,</h4>` +
               `<h4>Grand Dunman</h4>`;
 
-            this.$axios.post('http://localhost:3000/send_mail.php', {
+            this.$axios.post('https://grand-dunman.com.sg/send_mail.php', {
               To: process.env.EMAIL_USER,
               From: this.email_2,
               Subject: `Grand Dunman - New Appointment Submission [${this.name}]`,
