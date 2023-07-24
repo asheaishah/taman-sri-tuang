@@ -8,24 +8,23 @@
     <section>
       <div class="max-w-6xl px-4 py-12 mx-auto space-y-6">
         <p class="max-w-2xl mx-auto text-center">
-            Our team will update the Official Video for Grand Dunman once it is available. Stay tune!
           </p>
-            <iframe 
-            loop="1"
-            width="1000" 
-            height="600" 
-            class="mx-auto"
-            src="https://www.youtube.com/watch?v=LMahLA_6Ekg"  
-            title="Grand Dunman Videos" 
-            frameborder="0" 
-            allow="accelerometer; 
-            autoplay; 
-            clipboard-write; 
-            encrypted-media; 
-            gyroscope; 
-            picture-in-picture" 
-            allowfullscreen>
-            </iframe>
+          <iframe
+              loop="1"
+              width="1000"
+              height="600"
+              class="mx-auto"
+              src="https://www.youtube.com/embed/LMahLA_6Ekg"
+              title="Grand Dunman Videos"
+              frameborder="0"
+              allow="accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture"
+              allowfullscreen
+            ></iframe>
         <h3 class="text-center"> Source and Credit from <a target="_blank" class="transition text-theme-600 hover:text-theme-700" href="https://www.youtube.com/@granddunman4811">Grand Dunman</a></h3>
         <section class="py-6">
           <NuxtLink

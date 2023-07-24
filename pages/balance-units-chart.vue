@@ -18,20 +18,9 @@
             time without prior notice. This webpage cannot be held responsible
             for any inaccuracies, omissions and/or dispute.
           </p>
-          <br>
-          <p class="max-w-2xl mx-auto">
-            Our team will update the Balance Units Chart once it is available. Stay tune!
-          </p>
         </div>
         <br>
-        <div>
-          <img
-          src="~assets/img/coming-soon.png"
-          alt="Coming Soon"
-          class="mx-auto"
-        />
-        </div>
-      <!--  <div>
+       <div>
           <embed
             :src="`${url}`"
             type="application/pdf"
@@ -41,13 +30,13 @@
         </div>
         <div class="text-center">
           <NuxtLink
-            to="/public/pdf/The Lilium Elevation Chart_L.pdf"
+            to="/public/pdf/GrandDunman.pdf"
             target="_blank"
             class="font-medium hover:underline"
           >
             Click here to view larger chart
           </NuxtLink>
-        </div> -->
+        </div>
         <section class="py-6">
           <NuxtLink
             to="/dunman/payar-lebar"
@@ -90,7 +79,7 @@
 <script>
 export default {
   data() {
-    return { url: process.env.BASE_URL ? '/' + process.env.BASE_URL + '/public/pdf/The Lilium Elevation Chart_L.pdf': '/public/pdf/The Lilium Elevation Chart_L.pdf'}
+    return { url: process.env.BASE_URL ? '/' + process.env.BASE_URL + '/public/pdf/GrandDunman.pdf': '/public/pdf/GrandDunman.pdf'}
   },
 }
 </script>

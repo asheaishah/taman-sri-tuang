@@ -7,18 +7,7 @@
     </div>
     <section>
       <div class="max-w-6xl px-4 py-12 mx-auto space-y-6">
-        <div>
-          <p class="max-w-2xl mx-auto text-center">
-            Our team will update the Elevation Chart once it is available. Stay tune!
-          </p>
-          <br><br>
-          <img
-          src="~assets/img/coming-soon.png"
-         alt="Coming Soon"
-          class="mx-auto"
-        />
-        </div>
-      <!--  <div>
+      <div>
           <embed
             :src="`${url}`"
             type="application/pdf"
@@ -28,13 +17,13 @@
         </div>
         <div class="text-center">
           <NuxtLink
-            to="/public/pdf/The Lilium Elevation Chart_L.pdf"
+            to="/public/pdf/GrandDunman.pdf"
             target="_blank"
             class="font-medium hover:underline"
           >
             Click here to view larger chart
           </NuxtLink>
-        </div> -->
+        </div> 
         <section class="py-6">
           <NuxtLink
             to="/balance-units-chart"
@@ -77,7 +66,7 @@
 <script>
 export default {
   data() {
-     return { url: process.env.BASE_URL ? '/' + process.env.BASE_URL + '/public/pdf/The Lilium Elevation Chart_L.pdf': '/public/pdf/The Lilium Elevation Chart_L.pdf'}
+     return { url: process.env.BASE_URL ? '/' + process.env.BASE_URL + '/public/pdf/GrandDunman.pdf': '/public/pdf/GrandDunman.pdf'}
   },
 }
 </script>
