@@ -379,6 +379,7 @@
 <script>
 import flatPickr from 'vue-flatpickr-component'
 import 'flatpickr/dist/flatpickr.css'
+import axios from 'axios';
 
 export default {
   components: {
@@ -395,9 +396,9 @@ export default {
       email: null,
       mobile: null,
       interest: null,
-      errors: '',
+      errors: [],
       success: false,
-      email_2:'dave@singhaiyi.com',
+      email_2: 'dave@singhaiyi.com',
       config: {
         wrap: true,
         altFormat: 'd/m/Y - l',
@@ -436,68 +437,68 @@ export default {
       this.email = null
       this.mobile = null
       this.interest = null
-    },
-    send() {
       this.errors = []
-
- /*     if (this.mobile) {
-        const prefix = this.mobile.substring(0, 2)
-        if (prefix !== '65' || this.mobile.length <= 7) {
-          this.errors.push({
-            mobile: 'The mobile field contains an invalid number.',
-          })
-        }
-      } */
+      this.success = false
+    },
+    validateMobile() {
+      if (this.mobile.length <= 7) {
+        this.errors.push('The mobile field contains an invalid number.')
+      }
+    },
+    async send() {
+      this.errors = []
+      this.validateMobile()
 
       if (!this.errors.length) {
-        // eslint-disable-next-line
-       this.$axios
-        .post('https://grand-dunman.com.sg/send_mail.php', {
-          To: process.env.EMAIL_USER,
-          From: this.email,
-          Subject: 'Grand Dunman - Receipt Acknowledgement for Appointment',
-          Body:
-            '<h3><b>Dear ' + this.name + '</b><h3>' + 
-            '<h4>Congratulations!</h4>'+ 
-            '<h4>We are pleased to inform you that your appointment to view the showflat for Grand Dunman on '+
-            this.date + ' at ' + this.time + 
-            ' with our developer staff from SingHaiyi has been confirmed. Congratulations on securing your appointment!</h4>' + 
-            '<h4>Our developer staff will be contacting you shortly to reconfirm the details of your appointment. </h4>'+ 
-            '<h4>We kindly ask that you refrain from scheduling any other appointments during the time you have reserved with us to avoid any potential scheduling conflicts.</h4>'+
-            '<h4>In the event that you need to reschedule your appointment, kindly inform us by replying to this email, <a href="mailto:dave@singhaiyi.com"><b>dave@singhaiyi.com</b></a> with your preferred appointment date and time.</h4>'+ 
-            '<h4>Should you have any queries, you may contact us by replying to this email, <a href="mailto:dave@singhaiyi.com"><b>dave@singhaiyi.com</b></a>, or calling us at <a href="tel:+6561003337"><b>+65 6100 3337</b></a>.</h4>' +  
-            '<h4>We hope you have a pleasant day and look forward to welcoming you to Grand Dunman.</h3>' + 
-            '<h4>Best regards,</h4>' + 
-            '<h4>Grand Dunman</h4>',
-        }).then(() => {
-        this.$axios
-        .post('https://grand-dunman.com.sg/send_mail.php', {
-          To: process.env.EMAIL_USER,
-          From: this.email_2,
-          Subject: 'Grand Dunman - New Booking Submission' +' [' + this.name +']',
-          Body:
-            '<h3>Dear Dave, </h3>' +
-            '<h4>Below are the details for the New Booking Submission, do check it out: </h4>' +
-            '<ul>'+
-            '<li> <strong> Date: ' + this.date + '</strong></li>' +
-            '<li> <strong> Time: ' + this.time + '</strong></li>' +
-            '<li> <strong> Bedroom Size: ' + this.bedroom + '</strong></li>' +
-            '<li> <strong> Name: ' + this.name + '</strong></li>' +
-            '<li> <strong> Email: ' + this.email + '</strong></li>' +
-            '<li> <strong> Mobile: ' + this.mobile + '</strong></li>' +
-            '<li> <strong> Level Of Interest: ' + this.interest + '</strong></li>' +
-            '</ul>'+
-            '<h4>Thanks, </h4>' + 
-            '<h4>Grand Dunman</h4>',
-        })
-          
+        try {
+          await axios.post('https://grand-dunman.com.sg/send_mail.php', {
+            To: process.env.EMAIL_USER,
+            From: this.email,
+            Subject: 'Grand Dunman - Receipt Acknowledgement for Appointment',
+            Body:
+              '<h3><b>Dear ' + this.name + '</b><h3>' + 
+              '<h4>Congratulations!</h4>'+ 
+              '<h4>We are pleased to inform you that your appointment to view the showflat for Grand Dunman on '+
+              this.date + ' at ' + this.time + 
+              ' with our developer staff from SingHaiyi has been confirmed. Congratulations on securing your appointment!</h4>' + 
+              '<h4>Our developer staff will be contacting you shortly to reconfirm the details of your appointment. </h4>'+ 
+              '<h4>We kindly ask that you refrain from scheduling any other appointments during the time you have reserved with us to avoid any potential scheduling conflicts.</h4>'+
+              '<h4>In the event that you need to reschedule your appointment, kindly inform us by replying to this email, <a href="mailto:dave@singhaiyi.com"><b>dave@singhaiyi.com</b></a> with your preferred appointment date and time.</h4>'+ 
+              '<h4>Should you have any queries, you may contact us by replying to this email, <a href="mailto:dave@singhaiyi.com"><b>dave@singhaiyi.com</b></a>, or calling us at <a href="tel:+6561003337"><b>+65 6100 3337</b></a>.</h4>' +  
+              '<h4>We hope you have a pleasant day and look forward to welcoming you to Grand Dunman.</h3>' + 
+              '<h4>Best regards,</h4>' + 
+              '<h4>Grand Dunman</h4>'
+          })
+
+          await axios.post('https://grand-dunman.com.sg/send_mail.php', {
+            To: process.env.EMAIL_USER,
+            From: this.email_2,
+            Subject: 'Grand Dunman - New Booking Submission' +' [' + this.name +']',
+            Body:
+              '<h3>Dear Dave, </h3>' +
+              '<h4>Below are the details for the New Booking Submission, do check it out: </h4>' +
+              '<ul>'+
+              '<li> <strong> Date: ' + this.date + '</strong></li>' +
+              '<li> <strong> Time: ' + this.time + '</strong></li>' +
+              '<li> <strong> Bedroom Size: ' + this.bedroom + '</strong></li>' +
+              '<li> <strong> Name: ' + this.name + '</strong></li>' +
+              '<li> <strong> Email: ' + this.email + '</strong></li>' +
+              '<li> <strong> Mobile: ' + this.mobile + '</strong></li>' +
+              '<li> <strong> Level Of Interest: ' + this.interest + '</strong></li>' +
+              '</ul>'+
+              '<h4>Thanks, </h4>' + 
+              '<h4>Grand Dunman</h4>'
+          })
+
           this.success = true
           this.reset()
-        }).catch( () => {
-          
-        })
+        } catch(error) {
+          this.errors.push('An error occurred while trying to send the email.')
+          console.error(error)
+        }
       }
     },
   },
 }
 </script>
+

@@ -114,6 +114,8 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
   data() {
     return {
@@ -131,6 +133,9 @@ export default {
       newSendBrochure: '', 
     };
   },
+  created() {
+    this.$axios = axios;
+  },
   methods: {
     send() {
       this.errors = {};
@@ -144,12 +149,13 @@ export default {
       }
 
       if (!this.mobile) {
-        this.errors.mobile = 'Please enter your mobile number.';
-      } else {
-        const prefix = this.mobile.substring(0, 2);
-        if (prefix !== '65' || this.mobile.length <= 7) {
-          this.errors.mobile = 'The mobile field contains an invalid number.';
-        }
+    this.errors.mobile = 'Please enter your mobile number.';
+        } else {
+    // Convert this.mobile to a string before using substring
+    const mobileString = this.mobile.toString();
+    if ( mobileString.length <= 7) {
+      this.errors.mobile = 'The mobile field contains an invalid number.';
+         }
       }
 
       if (!this.email) {
@@ -165,6 +171,9 @@ export default {
       }
 
       if (Object.keys(this.errors).length === 0) {
+        // This line ensures that newSendBrochure gets set based on send_brochure
+        this.newSendBrochure = this.send_brochure ? 'Yes' : 'No';
+
         const emailBody =
         `<h3>Dear ${this.name},</h3>` +
         `<h4>Thank you for your interest in Grand Dunman. We are thrilled to offer you the opportunity to be among the first to experience our new, upcoming condominium.</h4>` +
@@ -204,13 +213,15 @@ export default {
               From: this.email_2,
               Subject: `Grand Dunman - New Appointment Submission [${this.name}]`,
               Body: appointmentBody,
+            }).then(() => {
+              this.success = true;
+              this.reset();
+            }).catch((error) => {
+              console.log(error);
             });
-
-            this.success = true;
-            this.reset();
           })
-          .catch(() => {
-            // Handle error if the API call fails
+          .catch((error) => {
+            console.log(error);
           });
       }
     },
@@ -229,27 +240,3 @@ export default {
 };
 </script>
 
-
-<style>
-.custom-button {
-  position: relative;
-  overflow: hidden;
-}
-
-.button-hover-effect {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.2);
-  opacity: 0;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.custom-button:hover .button-hover-effect {
-  transform: scale(1.2);
-  opacity: 1;
-}
-</style>
