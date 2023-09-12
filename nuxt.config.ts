@@ -9,14 +9,14 @@ export default defineNuxtConfig({
     },
     app: {
         head: {
-            title:'Grand Dunman',
+            title:'Borneo 29',
             charset: 'utf-8',
             viewport: 'width=device-width, initial-scale=1',
             meta: [
                 { charset: 'utf-8' },
                 { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-                { hid: 'description', name: 'description', content: 'Discover Grand Dunman, an epitome of luxury living in District 15, Singapore. Nestled in nature, this upcoming residential development offers over 1,000 units coupled with premium facilities and seamless connectivity, with Dakota MRT Station less than 100m away.' },
-                { hid: 'keywords', name: 'keywords', content: 'Grand Dunman, Dunman Residences, New Property Launch, Singapore District 15 Properties, Dakota MRT Condos, Luxury Residential Developments Singapore, Dunman Road Condo, Grand Dunman New Launch, Dunman Real Estate' },
+                { hid: 'description', name: 'description', content: 'Discover our exclusive housing development, meticulously crafted by Menua Borneo Sdn Bhd, exclusively available for Bumiputera Sarawakians. Situated in the peaceful locality of Samarahan, these charming double-story terrace houses seamlessly combine comfort with convenience.' },
+                { hid: 'keywords', name: 'keywords', content: 'Borneo 29, Borneo 29 Residence,Property Launch' },
                 { name: 'format-detection', content: 'telephone=no' },
               ],
             script: [
@@ -30,7 +30,7 @@ export default defineNuxtConfig({
     },
     runtimeConfig: {
         email: '', // can be overridden by NUXT_API_SECRET environment variable
-        title:'Grand Dunman',
+        title:'Borneo 29',
         emailUser: '',
     },
     

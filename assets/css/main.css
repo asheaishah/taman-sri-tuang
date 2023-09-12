@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 html {
-  background-color: rgba(249, 250, 251, 1);
+  background-color: rgb(255, 255, 255);
   color: rgba(31, 41, 55, 1);
 }
 
@@ -132,3 +132,4 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+

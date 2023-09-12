@@ -1,21 +1,23 @@
 <template>
   <div>
-    <div class="py-12 select-none bg-theme-700">
-      <div class="text-xl font-semibold text-center text-white sm:text-4xl">
+    <div class="py-5 select-none bg-gradient-to-b from-yellow-600 to-yellow-300">
+      <div class="text-xl font-semibold text-center text-black sm:text-4xl">
         Contact Us
       </div>
     </div>
-    <section>
-      <div class="max-w-6xl px-4 py-12 mx-auto space-y-6">
-        <form-book-appoinment />
+    <section class="py-10">
+      <div class="max-w-6xl px-4 mx-auto prose text-justify">
+        <p>
+          If there are any inquiries regarding purchasing or book a house property of Borneo 29 or any general inquiries related with Borneo 29, feel free to contact via contact information given below.
+        </p><br>
+        <p>
+          Email: borneo29ks@gmail.com</p><br>
+        <p>
+          Phone no: +60178093305
+        </p>
       </div>
     </section>
   </div>
 </template>
 
-<script>
-import FormBookAppoinment from '~/components/FormBookAppoinment.vue'
-export default {
-  components: { FormBookAppoinment },
-}
-</script>
+

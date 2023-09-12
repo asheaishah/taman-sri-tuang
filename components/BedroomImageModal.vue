@@ -1,8 +1,8 @@
 <template>
-  <div class="grid grid-cols-2 gap-2 sm:gap-6 sm:grid-cols-3">
+  <div class="grid grid-cols-1 gap-2 sm:gap-6 sm:grid-cols-2">
     <div v-for="(bedRoom, index) in bedRooms.bedRoomProp" :key="index" class="space-y-1 cursor-pointer"
       @click="toggleModal(bedRoom.url)">
-      <img :src="images[bedRoom.url]" class="mx-auto rounded  w-2/3" />
+      <img :src="images[bedRoom.url]" class="mx-auto rounded  w-full h-25 shadow-lg" />
       <p class="text-center">{{ bedRoom.title }}</p>
     </div>
 

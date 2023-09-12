@@ -1,7 +1,7 @@
-<template>
+<!--<template>
  <svg version="1.1" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 	 x="0px" y="0px" viewBox="0 0 400 100" overflow="visible" xml:space="preserve">
-<image width="225" height="65" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAABBCAYAAAAnr8OUAAABBmlDQ1BJQ0MgUHJvZmlsZQAAeJxj
+  <image width="225" height="65" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAABBCAYAAAAnr8OUAAABBmlDQ1BJQ0MgUHJvZmlsZQAAeJxj
 YGCSYAACFgMGhty8kqIgdyeFiMgoBQYkkJhcXMCAGzAyMHy7BiIZGC7r4lGHC3CmpBYnA+kPQFxS
 BLQcaGQKkC2SDmFXgNhJEHYPiF0UEuQMZC8AsjXSkdhJSOzykoISIPsESH1yQRGIfQfItsnNKU1G
 uJuBJzUvNBhIRwCxDEMxQxCDO4MTGX7ACxDhmb+IgcHiKwMD8wSEWNJMBobtrQwMErcQYipAP/C3
@@ -343,4 +343,4 @@ AAAASUVORK5CYII=" transform="matrix(1.7778 0 0 1.5385 0 0)">
 .nuxt-logo {
   height: 180px;
 }
-</style>
+</style>-->

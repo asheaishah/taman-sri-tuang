@@ -1,74 +1,30 @@
 <template>
   <div class="bg-theme-50">
     <div class="max-w-8xl px-4 py-12 mx-auto">
-      <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         <div class="space-y-2">
-          <h4 class="text-xl font-medium">Proudly Developed By</h4>
-          <img
-            src="@/assets/img/singhaiyi.png"
-            alt="Singhaiyi Group Pte. Ltd."
-            class="object-contain h-40"
-          />
-        </div>
-        <div class="space-y-2">
-          <h4 class="text-xl font-medium">Grand Dunman</h4>
+          <h4 class="text-xl font-medium">Borneo 29</h4>
           <ul class="space-y-3 text-gray-600">
-            <li>Developer: Singhaiyi Group Pte. Ltd.</li>
-            <li>Tenure of Land: 99-Year Leasehold</li>
-            <li>Site Area: Approx. 271,622 sqft</li>
-            <li>Expected TOP: 2028</li>
+            <li>Developer: Menua Borneo Sdn. Bhd.</li>
+            <li>Tenure of Land: Freehold</li>
+            <li>Expected Date of Completion: April 2025</li>
           </ul>
         </div>
         <div class="space-y-2">
           <h4 class="text-xl font-medium">Site Links</h4>
           <ul class="space-y-3 text-gray-600">
             <li>
-              <NuxtLink to="/" exact class="nuxt-link-exact-active nuxt-link-active">Grand Dunman</NuxtLink>
+              <NuxtLink to="/" exact class="nuxt-link-exact-active nuxt-link-active">Borneo 29</NuxtLink>
             </li>
-            <li><NuxtLink to="/floor-plan">Floor Plan Grand Dunman</NuxtLink></li>
-            <li><NuxtLink to="/pricing">Pricing Grand Dunman</NuxtLink></li>
-            <li><NuxtLink to="/book-an-appointment">Book Appointment (Direct Price)</NuxtLink></li>
+            <li><NuxtLink to="/house-property/floor-plan">Floor Plan Borneo 29</NuxtLink></li>
+            <li><NuxtLink to="/house-property/pricing">Pricing Borneo 29</NuxtLink></li>
             <li><NuxtLink to="/contact-us">Contact Us</NuxtLink></li>
           </ul>
         </div>
         <div class="space-y-2">
           <h4 class="text-xl font-medium">Contact Us</h4>
-          <ul class="space-y-3 text-gray-600">
-            <li class="flex items-center space-x-2">
-              <svg
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                class="w-5 h-5"
-              >
-                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></circle>
-                <path d="M12 7v3.764a2 2 0 001.106 1.789L16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-              </svg>
-              <p>10:00 AM – 7:00 PM</p>
-            </li>
-            <li class="flex items-center space-x-2">
-              <svg
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                class="w-5 h-5"
-              >
-                <path d="M13 18.675c1.93.83 4.242 1.325 7 1.325v-4l-4-1-3 3.675zm0 0C9.159 17.023 6.824 14.045 5.5 11m0 0C4.4 8.472 4 5.898 4 4h4l1 4-3.5 3z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-              </svg>
-              <a href="tel:+6561003337">+65 6100 3337</a>
-            </li>
-            <li class="flex items-center space-x-2">
-              <svg
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                class="w-5 h-5"
-              >
-                <path d="M7 9l3.75 3a2 2 0 002.5 0L17 9m4 8V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2h14a2 2 0 002-2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-              </svg>
-              <a href="mailto:sales@grand-dunman.com.sg">sales@grand-dunman.com.sg</a>
-            </li>
-          </ul>
+          <p>Email: borneo29ks@gmail.com</p>
+          <p>Phone no: +60178093305</p>
         </div>
       </div>
     </div>
@@ -77,10 +33,8 @@
         <div class="text-sm text-gray-500">
           <div class="flex flex-wrap justify-center max-w-4xl mx-auto divide-x divide-gray-500">
             <p class="px-1">Copyright © 2023</p>
-            <p class="px-1">Grand Dunman</p>
-            <p class="px-1">SingHaiyi Group Pte. Ltd.</p>
-            <p class="px-1"><a href="tel:+6561003337">+65 6100 3337</a></p>
-            <NuxtLink to="/privacy-policy" class="px-1">Privacy Policy</NuxtLink>
+            <p class="px-1">Broneo 29</p>
+            <p class="px-1">Menua Borneo Sdn. Bhd.</p>
           </div>
         </div>
         <div class="text-xs text-gray-400">
@@ -92,117 +46,11 @@
           Although every reasonable care has been taken in preparing this website, including the construction of models and showflats, the developer and marketing agents cannot be held responsible for any 
           inaccuracies or omissions. Visual representations, models, showflats, displays, illustrations, photographs, art renderings, and other graphics are intended to convey the artist's impressions of 
           the development and should not be considered as representations of fact. All listed properties, whether in Singapore or overseas, are subject to final inspection by relevant authorities to comply 
-          with the current codes of practice and policies of the respective countries. Purchasers should conduct their own inquiries and, if necessary, seek appropriate professional advice based on their specific 
-          circumstances. All purchases are subject to the terms and conditions of the contract.
+          with the current codes of practice and policies of the respective countries.
         </div>
       </div>
     </div>
   </div>
-
-    <div id="whatsapp-chat" class="hide">
-    <div class="header-chat">
-      <div class="head-home">
-        <div class="info-avatar">
-          <!-- DUNMAN LOGO-->
-           <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-  
-        </div>
-        <p>
-          <span class="whatsapp-name">Grand Dunman</span><br />
-          <small>Typically replies within a day</small>
-        </p>
-      </div>
-      <div class="get-new hide">
-        <div id="get-label"></div>
-        <div id="get-nama"></div>
-      </div>
-    </div>
-    <div class="home-chat"></div>
-    <div class="start-chat">
-      <div
-        style="
-          background-image: url('https://elfsight.com/assets/chats/patterns/whatsapp.png');
-        "
-        class="WhatsappChat__Component-sc-1wqac52-0 whatsapp-chat-body"
-      >
-        <div class="WhatsappChat__MessageContainer-sc-1wqac52-1 dAbFpq">
-          <div
-            style="opacity: 0"
-            class="WhatsappDots__Component-pks5bf-0 eJJEeC"
-          >
-            <div class="WhatsappDots__ComponentInner-pks5bf-1 hFENyl">
-              <div
-                class="
-                  WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotOne-pks5bf-3
-                  ixsrax
-                "
-              ></div>
-              <div
-                class="
-                  WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotTwo-pks5bf-4
-                  dRvxoz
-                "
-              ></div>
-              <div
-                class="
-                  WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotThree-pks5bf-5
-                  kXBtNt
-                "
-              ></div>
-            </div>
-          </div>
-          <div
-            style="opacity: 1"
-            class="WhatsappChat__Message-sc-1wqac52-4 kAZgZq"
-          >
-            <div class="WhatsappChat__Author-sc-1wqac52-3 bMIBDo">
-              Grand Dunman
-            </div>
-            <div class="WhatsappChat__Text-sc-1wqac52-2 iSpIQi">
-              Thank you for expressing your interest in Grand Dunman👋<br /><br />How may I assist you today?
-            </div>
-            <div class="WhatsappChat__Time-sc-1wqac52-5 cqCDVm">
-              {{ datetime }}
-              <!-- <?php $dt=new DateTime("now", new DateTimeZone('Asia/Singapore')); echo $dt->format('H:i'); ?> -->
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="blanter-msg">
-        <textarea
-          id="chat-input"
-          placeholder="Write a response"
-          maxlength="120"
-          row="1"
-        ></textarea>
-        <a id="send-it" href="javascript:void(0)" @click="sendMessage">
-          <svg viewBox="0 0 448 448">
-            <path d="M.213 32L0 181.333 320 224 0 266.667.213 416 448 224z" />
-          </svg>
-        </a>
-      </div>
-    </div>
-    <div id="get-number"></div>
-    <a class="close-chat" href="javascript:void(0)" @click="closeChat">×</a>
-  </div>
-  <a class="blantershow-chat" href="javascript:void(0)" title="Show Chat" @click="showChat">
-    <svg width="20" viewBox="0 0 24 24">
-      <defs />
-      <path
-        fill="#eceff1"
-        d="M20.5 3.4A12.1 12.1 0 0012 0 12 12 0 001.7 17.8L0 24l6.3-1.7c2.8 1.5 5 1.4 5.8 1.5a12 12 0 008.4-20.3z"
-      />
-      <path
-        fill="#4caf50"
-        d="M12 21.8c-3.1 0-5.2-1.6-5.4-1.6l-3.7 1 1-3.7-.3-.4A9.9 9.9 0 012.1 12a10 10 0 0117-7 9.9 9.9 0 01-7 16.9z"
-      />
-      <path
-        fill="#fafafa"
-        d="M17.5 14.3c-.3 0-1.8-.8-2-.9-.7-.2-.5 0-1.7 1.3-.1.2-.3.2-.6.1s-1.3-.5-2.4-1.5a9 9 0 01-1.7-2c-.3-.6.4-.6 1-1.7l-.1-.5-1-2.2c-.2-.6-.4-.5-.6-.5-.6 0-1 0-1.4.3-1.6 1.8-1.2 3.6.2 5.6 2.7 3.5 4.2 4.2 6.8 5 .7.3 1.4.3 1.9.2.6 0 1.7-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.3-.6-.4z"
-      />
-    </svg>
-    Chat with Us now :=)
-  </a>
 </template>
 
 <script>

@@ -1,8 +1,8 @@
 <template>
   <div>
     <div>
-      <div class="py-12 select-none bg-theme-700">
-        <div class="text-xl font-semibold text-center text-white sm:text-4xl">
+      <div class="py-12 select-none bg-gradient-to-b from-yellow-600 to-yellow-300">
+        <div class="text-xl font-bold text-center text-black sm:text-4xl">
           Project Details
         </div>
       </div>
@@ -12,47 +12,23 @@
             <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
               <div>
                 <label class="block text-gray-500 font-bold">Project Name</label>
-                <p>Grand Dunman (名门世家)</p>
+                <p>Borneo 29</p>
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">Developer</label>
-                <p>SingHaiyi Group Pte. Ltd.</p>
+                <p>Menua Borneo Sdn. Bhd.</p>
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">Location</label>
-                <p>Dakota / Marine Parade</p>
+                <p>Samarahan, Kota Samarahan, Sarawak</p>
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">District</label>
-                <p>District 15</p>
-              </div>
-              <div>
-                <label class="block text-gray-500 font-bold">Site Area</label>
-                <p>Approx. 252,234 sq m / 271,622 sq ft</p>
-              </div>
-              <div>
-                <label class="block text-gray-500 font-bold">Maximum Gross Floor Area</label>
-                <p>88,321 m²</p>
-              </div>
-              <div>
-                <label class="block text-gray-500 font-bold">Plot Ratio</label>
-                <p>3.5</p>
-              </div>
-              <div>
-                <label class="block text-gray-500 font-bold">Architect</label>
-                <p>P &amp; T Consultant</p>
-              </div>
-              <div>
-                <label class="block text-gray-500 font-bold">Main Contractor</label>
-                <p>China Construction Realty Co Pte Ltd</p>
-              </div>
-              <div>
-                <label class="block text-gray-500 font-bold">Landscape Consultant</label>
-                <p>COEN Design International Pte Ltd</p>
+                <p>Kota Samarahan</p>
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">Tenure</label>
-                <p>99-Year Leasehold</p>
+                <p>Freehold</p>
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">Site Use</label>
@@ -60,33 +36,25 @@
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">Total No. of Units</label>
-                <p>1,008 Residential Units &amp; 5 Shops</p>
+                <p>29 Residential Units</p>
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">Development</label>
-                <p>7 Blocks of 18-Storey Apartment</p>
-              </div>
-              <div>
-                <label class="block text-gray-500 font-bold">Land Use</label>
-                <p>Residential (Non-Landed)</p>
-              </div>
-              <div>
-                <label class="block text-gray-500 font-bold">Expected Date of TOP</label>
-                <p>2028</p>
+                <p>29 house unit with 2 storey each</p>
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">Expected Date of Legal Completion</label>
-                <p>2031</p>
+                <p>April 2025</p>
               </div>
               
             </div>
           </div>
           <div class="py-4 italic text-center text-gray-500">
-            (Project details for Grand Dunman may be subjected to change without prior notice)
+            (Project details for Borneo 29 may be subjected to change without prior notice)
           </div>
           <section class="py-6">
             <NuxtLink
-              to="/location-map"
+              to="/location/direction"
               class="
                 inline-flex
                 items-center
@@ -94,12 +62,12 @@
                 w-full
                 px-3
                 py-3
-                text-white
+                text-black
                 transition
                 rounded
                 sm:px-0
-                hover:bg-theme-900
-                bg-theme-700
+                hover:bg-yellow-600
+                bg-yellow-300
               "
             >
               Continue To Location Map
@@ -120,10 +88,6 @@
           </section>
         </div>
       </section>
-      <BookAppointment />
     </div>
   </div>
 </template>
-<script>
-export default {}
-</script>
