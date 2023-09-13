@@ -66,7 +66,7 @@
                         </div>
                     </div>
                 </NuxtLink>
-                <NuxtLink to="/house/floor-plan" class="">
+                <NuxtLink to="/house-property/floor-plan" class="">
                     <div class="max-w-sm mx-auto group">
                         <img src="~/assets/img/home/home-floor-plan.jpg" alt="" class="w-full rounded shadow" />
                         <div class="px-8 -mt-14">
@@ -96,7 +96,7 @@
                         </div>
                     </div>
                 </NuxtLink>
-                <NuxtLink to="/house/pricing" class="">
+                <NuxtLink to="/house-property/pricing" class="">
                     <div class="max-w-sm mx-auto group">
                         <img src="~/assets/img/home/price.jpg" alt=""
                             class="w-full rounded shadow" />
