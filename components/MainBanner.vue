@@ -18,24 +18,24 @@
                 </div>
             </div>
         </div>
-        <div class="bg-gradient-to-b from-yellow-600 to-yellow-300 pb-36">
+        <div class="bg-white pb-36">
             <div class="max-w-6xl px-4 mx-auto">
                 <div class="py-8 space-y-1 text-center text-white">
-                    <h3 class="text-xl font-bold sm:text-2xl tracking-widest text-red-900">
-                        Borneo 29 @ Kota Samarahan
+                    <h3 class="text-xl font-bold font-serif sm:text-2xl tracking-widest text-brown-900">
+                        Taman Sri Tuang
                     </h3>
                     <h4 class="text-xl font-medium text-neutral-800">
-                        Welcome to our website that showcases
+                        Welcome to our website
                     </h4>
                     <h4 class="text-xl font-medium text-neutral-800">
-                        the finest properties of Borneo 29.
+                        where you can view the showcase of Taman Sri Tuang's property.
                     </h4>
                 </div>
             </div>
         </div>
         <div class="max-w-6xl px-4 mx-auto -mt-36">
             <div class="grid grid-cols-1 gap-6 md:grid-cols-4">
-                <NuxtLink to="/about/borneo29" class="">
+                <NuxtLink to="/about/tst" class="">
                     <div class="max-w-sm mx-auto group">
                         <img src="~/assets/img/home/home-about.jpg" alt=""
                             class="w-full rounded shadow" />
@@ -46,18 +46,19 @@
                     items-center
                     justify-center
                     p-5
-                    bg-white
+                    bg-gray-900
+                    hover:bg-brown-100
                     rounded
                     shadow
                   ">
                                 <div class="space-y-px text-center">
-                                    <p class="font-bold text-red-900">About Borneo 29</p>
+                                    <p class="font-bold text-brown-400">About Taman Sri Tuang</p>
                                     <p class="
                         text-xl
                         font-semibold
-                        text-gray-700
+                        text-white
                         transition
-                        group-hover:text-gray-500
+                        group-hover:text-gray-400
                       ">
                                         Get to Know More
                                     </p>
@@ -76,18 +77,19 @@
                     items-center
                     justify-center
                     p-5
-                    bg-white
+                    bg-gray-900
+                    hover:bg-brown-100
                     rounded
                     shadow
                   ">
                                 <div class="space-y-px text-center">
-                                    <p class="font-bold text-red-900">House Showcase</p>
+                                    <p class="font-bold text-brown-400">House Showcase</p>
                                     <p class="
                         text-xl
                         font-semibold
-                        text-gray-700
+                        text-white
                         transition
-                        group-hover:text-gray-500
+                        group-hover:text-gray-400
                       ">
                                         See the Floor Plan
                                     </p>
@@ -107,18 +109,19 @@
                     items-center
                     justify-center
                     p-5
-                    bg-white
+                    bg-gray-900
+                    hover:bg-brown-100
                     rounded
                     shadow
                   ">
                                 <div class="space-y-px text-center">
-                                    <p class="font-bold text-red-900">Price List</p>
+                                    <p class="font-bold text-brown-400">Price List</p>
                                     <p class="
                         text-xl
                         font-semibold
-                        text-gray-700
+                        text-white
                         transition
-                        group-hover:text-gray-500
+                        group-hover:text-gray-400
                       ">
                                         Get the Price List
                                     </p>
@@ -138,18 +141,19 @@
                     items-center
                     justify-center
                     p-5
-                    bg-white
+                    bg-gray-900
+                    hover:bg-brown-100
                     rounded
                     shadow
                   ">
                                 <div class="space-y-px text-center">
-                                    <p class="font-bold text-red-900">Location</p>
+                                    <p class="font-bold text-brown-400">Location</p>
                                     <p class="
                         text-xl
                         font-semibold
-                        text-gray-700
+                        text-white
                         transition
-                        group-hover:text-gray-500
+                        group-hover:text-gray-400
                       ">
                                         Get Direction
                                     </p>
@@ -169,7 +173,7 @@ export default {}
   
 <style scope>
 #main_banner {
-    background-image: url('assets/img/Borneo29.png');
+    background-image: url('assets/img/banner.png');
 }
 </style>
   

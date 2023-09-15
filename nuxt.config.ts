@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     },
     app: {
         head: {
-            title:'Borneo 29',
+            title:'Taman Sri Tuang',
             charset: 'utf-8',
             viewport: 'width=device-width, initial-scale=1',
             meta: [
@@ -30,7 +30,7 @@ export default defineNuxtConfig({
     },
     runtimeConfig: {
         email: '', // can be overridden by NUXT_API_SECRET environment variable
-        title:'Borneo 29',
+        title:'Taman Sri Tuang',
         emailUser: '',
     },
     

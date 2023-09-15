@@ -3,7 +3,7 @@
     <div v-for="(bedRoom, index) in bedRooms.bedRoomProp" :key="index" class="space-y-1 cursor-pointer"
       @click="toggleModal(bedRoom.url)">
       <img :src="images[bedRoom.url]" class="mx-auto rounded  w-full h-25 shadow-lg" />
-      <p class="text-center">{{ bedRoom.title }}</p>
+        <!--<p class="text-center">{{ bedRoom.title }}</p>-->
     </div>
 
     <div v-if="modal" class="

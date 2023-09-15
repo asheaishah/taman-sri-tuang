@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="py-5 select-none bg-gradient-to-b from-yellow-600 to-yellow-300">
+    <div class="py-5 select-none bg-brown-100">
       <div class="text-xl font-bold text-center text-black sm:text-4xl">
         Developer
       </div>
@@ -8,32 +8,35 @@
     <div class="max-w-6xl px-4 mx-auto space-y-12 divide-y">
       <section class="py-6 space-y-6">
         <div class="space-y-4 text-center">
-          <h3 class="text-xl font-semibold sm:text-2xl">Developed By Menua Borneo Sdn Bhd</h3>
+          <h3 class="text-xl font-semibold sm:text-2xl">SPC Land Sdn. Bhd.</h3>
           <br>
           <div>
             <img
-              src="~assets/img/home/menua_logo.jpg"
-              alt="Menua Borneo Sdn Bhd"
+              src="~assets/img/spc-logo.png"
+              alt="SPC Land Sdn. Bhd."
               class="mx-auto"
             />
           </div>
         </div>
         <div class="max-w-6xl px-4 mx-auto prose text-justify">
           <p> 
-            Welcome to our website, dedicated to showcasing the finest properties presented by Menua Borneo Sdn. Bhd. Since our establishment in Malaysia on June 30, 2015, operating under the name MENUA BORNEO SDN. BHD. with registration number 201501024961 (1150290-U), we have proudly served the real estate market for eight successful years.
+            SPC LAND SDN. BHD. was established on 2017-09-14  in Malaysia with registration number of 1246708W. At SPC Land Sdn. Bhd., we are not just a property development company; we are creators of dreams, architects of aspirations, and builders of tomorrow. With an unwavering commitment to excellence and innovation, we have established ourselves as a prominent force in the world of real estate.
           </p><br>
           <p>
-            As a private limited company, MENUA BORNEO SDN. BHD. is a respected name in the industry. Our focus on quality and innovation has propelled us to excel in the real estate sector. With expertise spanning contracting and beyond, we create spaces that embody craftsmanship and cater to the aspirations of homeowners.
+            Our Vision: We envision a future where every individual's housing and investment dreams find their perfect home with us.
           </p><br>
           <p>
-            We believe in the essence of a home, where memories are crafted and futures are envisioned. Our experience, attention to detail, and architectural finesse come together to shape living spaces that endure and inspire.
+            Our Mission: To transform landscapes, enrich communities, and exceed expectations by delivering high-quality, sustainable developments that stand the test of time.
           </p><br>
           <p>
-            Explore our website to discover a curated selection of homes that epitomize elegance, functionality, and timeless design. These properties reflect MENUA BORNEO SDN. BHD.'s dedication to crafting remarkable living experiences.
+            Who We Are: As a dynamic and forward-thinking property development company based in Malaysia, SPC Land Sdn. Bhd. brings a wealth of experience, expertise, and passion to every project we undertake. With a team of dedicated professionals who are industry pioneers in their own right, we take pride in creating spaces that harmonize modern living with environmental responsibility.
           </p><br>
           <p>
-            Thank you for visiting us, and we're excited to be part of your journey in finding a place to call your own.
-          </p>
+            Our Values: Integrity, innovation, and inclusivity form the bedrock of our corporate ethos. We believe in transparency, accountability, and forging enduring relationships with our clients, partners, and stakeholders.
+          </p><br>
+          <p>
+            Join us on a journey of architectural brilliance, sustainable living, and investment opportunities that are second to none. SPC Land Sdn. Bhd. - Where your dreams find their foundation, and the future is built with vision and precision.
+          </p><br>
         </div>
       </section>
     </div>

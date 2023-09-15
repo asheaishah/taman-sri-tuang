@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="py-12 select-none bg-gradient-to-b from-yellow-600 to-yellow-300">
+    <div class="py-5 select-none bg-brown-100">
       <div class="text-xl font-bold text-center text-black sm:text-4xl">
         Floor Plan
       </div>
@@ -8,7 +8,7 @@
     <section class="bg-white rounded">
       <div class="max-w-6xl px-4 py-4 mx-auto prose text-justify">
         <p>
-          Borneo 29 residential property offers two type of double-storey terrace house which you can choose based on your own preferences. Planning to look for a house for your growing family member or want to own your own house to yourself, Borneo 29 us great choice for your house hunting.
+          Taman Sri Tuang offers two type of properties, which are single storey terrace property and 1 & 1/2 storey terrace, which you can choose based on your own preferences. For your information, single storey terrace have 2 type which you can choose from and these are Type A1 and A2, the slight difference between these two type of single storey terrace properties is the size. While 1 & 1/2 storey terrace is known as Type B and it have ground floor and upper floor.
         </p>
       </div>
     </section>
@@ -16,13 +16,13 @@
       <div class="max-w-6xl px-4 py-12 mx-auto space-y-12">
         <div class="space-y-4">
           <h3 class="text-xl font-semibold sm:text-2xl text-center">
-            Type A (1,410 sqft)
+            Type A1 and A2
           </h3>
-          <BedroomImageModal :bed-room-prop="TypeA" />
+          <BedroomImageModal :bed-room-prop="TypeA1A2" />
         </div>
         <div class="space-y-4">
           <h3 class="text-xl font-semibold sm:text-2xl text-center">
-            Type B (1,470 sqft)
+            Type B
           </h3>
           <BedroomImageModal :bed-room-prop="TypeB" />
         </div>
@@ -40,8 +40,8 @@
               transition
               rounded
               sm:px-0
-              hover:bg-yellow-600
-              bg-yellow-300
+              hover:bg-brown-400
+              bg-brown-200
             "
           >
             Continue To Pricing
@@ -70,13 +70,13 @@
 export default {
   data() {
     return {
-      TypeA: [
-        { title: 'Ground Floor Plan', url: 'Type_A_GF' },
-        { title: 'First Floor Plan', url: 'Type_A_1F' },
+      TypeA1A2: [
+        { url: 'type-a1' },
+        { url: 'type-a2' },
       ],
       TypeB: [
-      { title: 'Ground Floor Plan', url: 'Type_B_GF' },
-      { title: 'First Floor Plan', url: 'Type_B_1F' },
+      { url: 'type-b-ground' },
+      { url: 'type-b-upper' },
       ],
     }
   },

@@ -1,12 +1,12 @@
 <template>
     <!-- THIS IS MOBILE VIEW-->
-    <div class="sticky top-0 z-20 bg-white shadow-md xl:hidden">
+    <div class="sticky top-0 z-20 bg-gray-500 shadow-md xl:hidden">
       <div class="flex items-center justify-between px-2 py-2 sm:px-6">
         <NuxtLink to="/" aria-current="page" class="w-44 nuxt-link-exact-active nuxt-link-active">
           <!--Input the Logo-->
         </NuxtLink>
         <button @click.prevent="menuClick()">
-          <svg fill="currentColor" viewBox="0 0 24 24" class="w-8 h-8 transition hover:text-theme-700">
+          <svg fill="currentColor" viewBox="0 0 24 24" class="w-8 h-8 transition text-black hover:text-white">
             <path
               d="M3 6a1 1 0 011-1h16a1 1 0 110 2H4a1 1 0 01-1-1zm0 6a1 1 0 011-1h16a1 1 0 110 2H4a1 1 0 01-1-1zm0 6a1 1 0 011-1h16a1 1 0 110 2H4a1 1 0 01-1-1z">
             </path>
@@ -32,19 +32,26 @@
                 </button>
               </div>
               <div class="flex flex-col h-full py-6 overflow-y-scroll bg-white shadow-xl">
+                <div class="flex justify-center">
+                  <NuxtLink to="/" aria-current="page">
+                    <img src="~/assets/img/logo.png" alt=""
+                                  class="ml-20 w-400 h-500 rounded" />
+                    <span class="font-serif text-4xl">Taman Sri Tuang</span>
+                  </NuxtLink>
+                </div>
                 <div class="relative flex-1 px-4 mt-6 sm:px-6">
                   <div class="absolute inset-0 px-4 sm:px-6">
                     <div aria-hidden="true" class="h-full space-y-2">
                       <div>
                         <NuxtLink to="/" aria-current="page"
-                          class="inline-block w-full px-2 py-1 font-medium rounded bg-theme-100 hover:bg-theme-200 mobile-menu hover:text-theme-900 nuxt-link-exact-active nuxt-link-active">
+                          class="inline-block w-full px-2 py-1 font-medium rounded bg-gray-900 hover:bg-gray-300 mobile-menu text-white hover:text-gray-900 nuxt-link-exact-active nuxt-link-active">
                           Home
                         </NuxtLink>
                       </div>
                       <div>
                         <div class="cursor-pointer" @click.prevent="toggleSubmenu('about')">
                           <div
-                            class="flex items-center justify-between w-full px-2 py-1 font-medium rounded bg-theme-100 hover:text-theme-900 hover:bg-theme-200">
+                            class="flex items-center justify-between w-full px-2 py-1 font-medium rounded bg-gray-900 text-white hover:text-gray-900 hover:bg-gray-300">
                             <p>About</p>
                             <svg fill="currentColor" viewBox="0 0 24 24"
                               class="w-5 h-5 transition transform rotate-180">
@@ -54,11 +61,11 @@
                             </svg>
                           </div>
                           <ul class="py-2 space-y-2 text-gray-600" :class="{ 'hidden': !submenus.about.isOpen }">
-                            <li class="ml-3 transition hover:text-theme-600 mobile-sub-menu">
+                            <li class="ml-3 transition hover:text-gray-900 mobile-sub-menu">
                               <NuxtLink to="/about/developer" class="inline-block w-full">Developer</NuxtLink>
                             </li>
-                            <li class="ml-3 transition hover:text-theme-600 mobile-sub-menu">
-                              <NuxtLink to="/about/borneo29" class="inline-block w-full">Borneo 29</NuxtLink>
+                            <li class="ml-3 transition hover:text-gray-900 mobile-sub-menu">
+                              <NuxtLink to="/about/tst" class="inline-block w-full">Taman Sri Tuang</NuxtLink>
                             </li>
                           </ul>
                         </div>
@@ -66,7 +73,7 @@
                       <div>
                         <div class="cursor-pointer" @click.prevent="toggleSubmenu('houseproperty')">
                           <div
-                            class="flex items-center justify-between w-full px-2 py-1 font-medium rounded bg-theme-100 hover:text-theme-900 hover:bg-theme-200">
+                            class="flex items-center justify-between w-full px-2 py-1 font-medium rounded bg-gray-900 text-white hover:text-gray-900 hover:bg-gray-300">
                             <p>House Property</p>
                             <svg fill="currentColor" viewBox="0 0 24 24"
                               class="w-5 h-5 transition transform rotate-180">
@@ -76,39 +83,42 @@
                             </svg>
                           </div>
                           <ul class="py-2 space-y-2 text-gray-600" :class="{ 'hidden': !submenus.houseproperty.isOpen }">
-                            <li class="ml-3 transition hover:text-theme-600 mobile-sub-menu">
-                              <NuxtLink to="/house-property/site-plan" class="inline-block w-full">Site Plan</NuxtLink>
-                            </li>
-                            <li class="ml-3 transition hover:text-theme-600 mobile-sub-menu">
+                            <li class="ml-3 transition hover:text-gray-900 mobile-sub-menu">
                               <NuxtLink to="/house-property/floor-plan" class="inline-block w-full">Floor Plan</NuxtLink>
                             </li>
-                            <li class="ml-3 transition hover:text-theme-600 mobile-sub-menu">
+                            <li class="ml-3 transition hover:text-gray-900 mobile-sub-menu">
                               <NuxtLink to="/house-property/pricing" class="inline-block w-full">Pricing</NuxtLink>
+                            </li>
+                            <li class="ml-3 transition hover:text-gray-900 mobile-sub-menu">
+                              <NuxtLink to="/house-property/site-plan" class="inline-block w-full">Site Plan</NuxtLink>
+                            </li>
+                            <li class="ml-3 transition hover:text-gray-900 mobile-sub-menu">
+                              <NuxtLink to="/house-property/video" class="inline-block w-full">Video Showcase</NuxtLink>
                             </li>
                           </ul>
                         </div>
                       </div>
                       <div>
                         <NuxtLink to="/location/direction" 
-                          class="inline-block w-full px-2 py-1 font-medium rounded bg-theme-100 hover:bg-theme-200 mobile-menu hover:text-theme-900 nuxt-link-exact-active nuxt-link-active">
+                          class="inline-block w-full px-2 py-1 font-medium rounded bg-gray-900 hover:bg-gray-300 mobile-menu text-white hover:text-gray-900 nuxt-link-exact-active nuxt-link-active">
                           Location
                         </NuxtLink>
                       </div>
                       <div>
                         <NuxtLink to="/facilities" 
-                          class="inline-block w-full px-2 py-1 font-medium rounded bg-theme-100 hover:bg-theme-200 mobile-menu hover:text-theme-900 nuxt-link-exact-active nuxt-link-active">
+                          class="inline-block w-full px-2 py-1 font-medium rounded bg-gray-900 hover:bg-gray-300 mobile-menu text-white hover:text-gray-900 nuxt-link-exact-active nuxt-link-active">
                           Amenities / Facilities
                         </NuxtLink>
                       </div>
                       <div>
                         <NuxtLink to="/project-details" 
-                          class="inline-block w-full px-2 py-1 font-medium rounded bg-theme-100 hover:bg-theme-200 mobile-menu hover:text-theme-900 nuxt-link-exact-active nuxt-link-active">
+                          class="inline-block w-full px-2 py-1 font-medium rounded bg-gray-900 hover:bg-gray-300 mobile-menu text-white hover:text-gray-900 nuxt-link-exact-active nuxt-link-active">
                           Project Detail
                         </NuxtLink>
                       </div>
                       <div>
                         <NuxtLink to="/contact-us" 
-                          class="inline-block w-full px-2 py-1 font-medium rounded bg-theme-100 hover:bg-theme-200 mobile-menu hover:text-theme-900 nuxt-link-exact-active nuxt-link-active">
+                          class="inline-block w-full px-2 py-1 font-medium rounded bg-gray-900 hover:bg-gray-300 mobile-menu text-white hover:text-gray-900 nuxt-link-exact-active nuxt-link-active">
                           Contact Us
                         </NuxtLink>
                       </div>

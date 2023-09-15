@@ -1,29 +1,29 @@
 <template>
-  <div class="bg-theme-50">
+  <div class="bg-gray-50">
     <div class="max-w-8xl px-4 py-12 mx-auto">
       <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         <div class="space-y-2">
-          <h4 class="text-xl font-medium">Borneo 29</h4>
+          <h4 class="text-xl font-medium font-semibold">Taman Sri Tuang</h4>
           <ul class="space-y-3 text-gray-600">
-            <li>Developer: Menua Borneo Sdn. Bhd.</li>
-            <li>Tenure of Land: Freehold</li>
-            <li>Expected Date of Completion: April 2025</li>
+            <img src="~/assets/img/spc-logo.png" alt=""/>
+            <li>Developer: SPC Land Sdn. Bhd.</li>
+            <li>Tenure of Land: Leasehold (99 years)</li>
           </ul>
         </div>
         <div class="space-y-2">
           <h4 class="text-xl font-medium">Site Links</h4>
           <ul class="space-y-3 text-gray-600">
-            <li>
-              <NuxtLink to="/" exact class="nuxt-link-exact-active nuxt-link-active">Borneo 29</NuxtLink>
+            <li class="hover:text-black">
+              <NuxtLink to="/" exact class="nuxt-link-exact-active nuxt-link-active">Taman Sri Tuang</NuxtLink>
             </li>
-            <li><NuxtLink to="/house-property/floor-plan">Floor Plan Borneo 29</NuxtLink></li>
-            <li><NuxtLink to="/house-property/pricing">Pricing Borneo 29</NuxtLink></li>
-            <li><NuxtLink to="/contact-us">Contact Us</NuxtLink></li>
+            <li class="hover:text-black"><NuxtLink to="/house-property/floor-plan">Floor Plan Taman Sri Tuang</NuxtLink></li>
+            <li class="hover:text-black"><NuxtLink to="/house-property/pricing">Pricing Taman Sri Tuang</NuxtLink></li>
+            <li class="hover:text-black"><NuxtLink to="/contact-us">Contact Us</NuxtLink></li>
           </ul>
         </div>
         <div class="space-y-2">
           <h4 class="text-xl font-medium">Contact Us</h4>
-          <p>Email: borneo29ks@gmail.com</p>
+          <p>Email: tamansrituang@gmail.com</p>
           <p>Phone no: +60178093305</p>
         </div>
       </div>
@@ -33,8 +33,8 @@
         <div class="text-sm text-gray-500">
           <div class="flex flex-wrap justify-center max-w-4xl mx-auto divide-x divide-gray-500">
             <p class="px-1">Copyright © 2023</p>
-            <p class="px-1">Broneo 29</p>
-            <p class="px-1">Menua Borneo Sdn. Bhd.</p>
+            <p class="px-1">Taman Sri Tuang</p>
+            <p class="px-1">SPC Land Sdn. Bhd.</p>
           </div>
         </div>
         <div class="text-xs text-gray-400">
