@@ -2,7 +2,7 @@
     <section>
         <div data-v-750ad506="" class="shadow-md">
             <div id="main_banner" data-v-750ad506="" class="overflow-hidden bg-center bg-no-repeat bg-cover max-h-96"
-                style="height: 500px">
+                style="height: 400px">
                 <div data-v-750ad506="" class="relative w-full h-full max-w-6xl px-4 mx-auto">
                     <div data-v-750ad506="" class="absolute bottom-0 right-0 w-96">
                         <div data-v-750ad506="" class="
@@ -21,6 +21,9 @@
         <div class="bg-white pb-36">
             <div class="max-w-6xl px-4 mx-auto">
                 <div class="py-8 space-y-1 text-center text-white">
+                    <center>
+                        <img class="w-40 h-50" src="~/assets/img/logo.png"/>
+                    </center>
                     <h3 class="text-xl font-bold font-serif sm:text-2xl tracking-widest text-brown-900">
                         Taman Sri Tuang
                     </h3>
